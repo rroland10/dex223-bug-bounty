@@ -15,15 +15,15 @@ Dex223 is a decentralized exchange that addresses the critical security issues o
 - **Enhanced Security**: ERC-223 prevents accidental token loss
 - **Backward Compatibility**: Works with existing ERC-20 tokens
 - **Encapsulated Margin Trading**: Innovative trading features
-- **Coinbase Integration**: On/off-ramp capabilities
+- **Fiat Onramp Integration**: On/Off-ramp
 
 ### 🏆 Program Highlights
 - **Total Rewards Pool**: $100,000 USD
 - **Maximum Reward**: $15,000 USD per vulnerability
-- **Active Since**: 2022
+- **Active Since**: 2024
 - **Current Year**: 2025
 - **Success Rate**: 98.5% on-time payments
-- **Community**: 500+ security researchers
+- **Community**: 10+ Security researchers
 
 ## 📋 Table of Contents
 
@@ -47,7 +47,7 @@ Dex223 is a decentralized exchange that addresses the critical security issues o
 ### In Scope
 - **Smart Contracts**: All Dex223 smart contracts on Ethereum mainnet and testnets
 - **Web Application**: Frontend and backend services at https://test-app.dex223.io
-- **API Endpoints**: All public and authenticated APIs including Coinbase API integration
+- **API Endpoints**: All public and authenticated APIs including Fiat on/off-ramp integration
 - **Swap Interface**: https://test-app.dex223.io/en/swap
 - **Test Environment**: https://test-app.dex223.io
 - **Infrastructure**: Cloud services and deployment pipelines

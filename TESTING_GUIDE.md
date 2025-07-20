@@ -49,7 +49,7 @@ npx hardhat deploy --network sepolia
 ### Web Application
 - **Test Environment**: https://test-app.dex223.io
 - **Swap Interface**: https://test-app.dex223.io/en/swap
-- **API**: Coinbase API integration
+- **API**: Fiat on/off-ramp integration
 
 ### Test Tokens
 - **Sepolia ETH**: [Chainlink Faucet](https://faucets.chain.link/sepolia) or [Alchemy Faucet](https://www.alchemy.com/faucets/ethereum-sepolia)
