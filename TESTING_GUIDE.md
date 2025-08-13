@@ -1,6 +1,6 @@
-# 🧪 Dex223 Testing Guide
+# Dex223 Testing Guide
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 - **Git**: Latest version
@@ -32,7 +32,7 @@ cp .env.example .env
 npx hardhat deploy --network sepolia
 ```
 
-## 🎯 Testing Targets
+## Testing Targets
 
 ### Smart Contracts
 - **Main Contract**: `0x...` (Sepolia)
@@ -55,7 +55,7 @@ npx hardhat deploy --network sepolia
 - **Sepolia ETH**: [Chainlink Faucet](https://faucets.chain.link/sepolia) or [Alchemy Faucet](https://www.alchemy.com/faucets/ethereum-sepolia)
 - **Dex223 Test Tokens**: Use "Get free tokens" button on test pages
 
-## 🛠️ Testing Tools
+## Testing Tools
 
 ### Smart Contract Analysis
 ```bash
@@ -93,7 +93,7 @@ python scripts/web_scanner.py
 python scripts/api_tests.py
 ```
 
-## 🔍 Testing Methodology
+## Testing Methodology
 
 ### 1. Reconnaissance & Information Gathering
 - **Domain enumeration**: Subdomain discovery and mapping
@@ -115,7 +115,7 @@ python scripts/api_tests.py
 - **Documentation**: Detailed reproduction steps and technical analysis
 - **Remediation suggestions**: Actionable recommendations for fixes
 
-## 📋 Testing Checklist
+## Testing Checklist
 
 ### Smart Contracts
 - [ ] **Reentrancy**: Check for external calls before state changes
@@ -152,7 +152,7 @@ python scripts/api_tests.py
 - [ ] **DNS Security**: Check for DNS vulnerabilities
 - [ ] **Backup Security**: Verify backup protection
 
-## 🎯 Common Vulnerabilities
+## Common Vulnerabilities
 
 ### Smart Contract Specific
 ```solidity
@@ -178,21 +178,21 @@ document.getElementById('comment').innerHTML = userInput; // Vulnerable
 query = f"SELECT * FROM users WHERE id = {user_id}"  # Vulnerable
 ```
 
-## 📊 Testing Metrics
+## Testing Metrics
 
 ### Coverage Goals
-- **Smart Contracts**: 100% function coverage
-- **Web Application**: 90% endpoint coverage
-- **API**: 95% method coverage
-- **Infrastructure**: 100% service coverage
+- **Smart Contracts**: Comprehensive function coverage
+- **Web Application**: Thorough endpoint coverage
+- **API**: Complete method coverage
+- **Infrastructure**: Full service coverage
 
 ### Quality Metrics
-- **False Positive Rate**: <5%
-- **Report Quality Score**: >4.0/5.0
-- **Resolution Time**: <30 days average
-- **Researcher Satisfaction**: >4.5/5.0
+- **False Positive Rate**: Minimize false positives
+- **Report Quality Score**: Aim for high quality reports
+- **Resolution Time**: Work towards timely resolution
+- **Researcher Satisfaction**: Maintain positive experience
 
-## 🔧 Custom Testing Scripts
+## Custom Testing Scripts
 
 ### Smart Contract Fuzzing
 ```python
@@ -234,7 +234,7 @@ def scan_for_xss(url):
     return "No XSS found"
 ```
 
-## 📚 Resources
+## Resources
 
 ### Documentation
 - [Latest Development Report](https://gist.github.com/Dexaran/c479c626a1af52853f5e396d2b7fcf9f)

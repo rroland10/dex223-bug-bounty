@@ -17,13 +17,7 @@ Dex223 is a decentralized exchange that addresses the critical security issues o
 - **Encapsulated Margin Trading**: Innovative trading features
 - **Fiat Onramp Integration**: On/Off-ramp
 
-### 🏆 Program Highlights
-- **Total Rewards Pool**: $100,000 USD
-- **Maximum Reward**: $15,000 USD per vulnerability
-- **Active Since**: 2024
-- **Current Year**: 2025
-- **Success Rate**: 98.5% on-time payments
-- **Community**: 10+ Security researchers
+
 
 ## 📋 Table of Contents
 

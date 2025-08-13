@@ -1,10 +1,10 @@
-# 📋 Dex223 Bug Bounty Program Rules
+# Dex223 Bug Bounty Program Rules
 
-## 🎯 Program Overview
+## Program Overview
 
-The Dex223 Bug Bounty Program is designed to identify and fix security vulnerabilities in our decentralized exchange platform. These rules ensure fair, ethical, and effective security research while maintaining the highest standards of professional conduct and responsible disclosure practices.
+The Dex223 Bug Bounty Program is designed to identify and fix security vulnerabilities in our decentralized exchange platform. These guidelines ensure fair, ethical, and effective security research while maintaining professional conduct and responsible disclosure practices. As a decentralized team, we value flexibility and community-driven approaches.
 
-## ✅ Eligibility
+## Eligibility
 
 ### Who Can Participate
 - Security researchers, ethical hackers, and cybersecurity professionals
@@ -18,7 +18,7 @@ The Dex223 Bug Bounty Program is designed to identify and fix security vulnerabi
 - Participants from sanctioned countries
 - Minors under 18 years of age
 
-## 🔒 Testing Guidelines
+## Testing Guidelines
 
 ### Allowed Activities
 - **Smart Contract Testing**: Static analysis, fuzzing, formal verification
@@ -41,10 +41,10 @@ The Dex223 Bug Bounty Program is designed to identify and fix security vulnerabi
 - **Staging Environment**: Available for comprehensive testing
 - **Local Development**: Recommended for initial research
 
-## 📝 Submission Requirements
+## Submission Requirements
 
 ### Report Format
-All submissions must follow our [Report Template](REPORT_TEMPLATE.md) and include:
+All submissions should follow our [Report Template](REPORT_TEMPLATE.md) and include:
 
 1. **Executive Summary**: Clear description of the vulnerability
 2. **Technical Details**: Step-by-step reproduction steps
@@ -66,25 +66,27 @@ All submissions must follow our [Report Template](REPORT_TEMPLATE.md) and includ
 - **Backup**: GitHub Security Advisories
 - **Emergency**: Telegram security channel (for critical issues)
 
-## ⏰ Response Timeline
+## Response Timeline
 
 ### Initial Response
-- **Critical Issues**: Within 24 hours
-- **High Severity**: Within 48 hours
-- **Medium/Low Severity**: Within 5 business days
+We aim to respond to all reports as quickly as possible, typically:
+- **Critical Issues**: Within 24-48 hours
+- **High Severity**: Within 3-5 business days
+- **Medium/Low Severity**: Within 1-2 weeks
 
 ### Resolution Timeline
-- **Critical Issues**: 7 days maximum
-- **High Severity**: 14 days maximum
-- **Medium Severity**: 30 days maximum
-- **Low Severity**: 60 days maximum
+Resolution times may vary based on complexity and team availability:
+- **Critical Issues**: As soon as possible, typically 1-2 weeks
+- **High Severity**: 2-4 weeks
+- **Medium Severity**: 4-8 weeks
+- **Low Severity**: 6-12 weeks
 
 ### Communication
-- Regular status updates via email
+- Status updates via email when possible
 - Public disclosure coordination
 - Researcher acknowledgment in security advisories
 
-## 🏆 Reward Criteria
+## Reward Criteria
 
 ### Severity Assessment
 Rewards are determined based on:
@@ -107,40 +109,39 @@ Reports may be disqualified for:
 - Non-reproducible issues
 - Out-of-scope vulnerabilities
 
-## 🔄 Duplicate Handling
+## Duplicate Handling
 
 ### Duplicate Policy
 - **First Valid Report**: Receives full reward
 - **Subsequent Reports**: May receive partial credit if significant additional information
 - **Collaborative Reports**: Rewards split among researchers
-- **Timeline**: Reports within 24 hours of each other may be considered simultaneous
+- **Timeline**: Reports within 24-48 hours of each other may be considered simultaneous
 
 ### Collaboration Guidelines
 - Multiple researchers can work together
-- All contributors must be listed in the report
-- Reward distribution must be agreed upon beforehand
+- All contributors should be listed in the report
+- Reward distribution should be agreed upon beforehand
 - Individual contributions should be clearly documented
 
-## 📊 Program Metrics
+## Program Metrics
 
 ### Transparency
-- Monthly program statistics
+- Program statistics when available
 - Vulnerability type distribution
-- Average resolution times
+- Resolution times
 - Total rewards distributed
 - Researcher participation metrics
 
 ### Continuous Improvement
-- Regular rule updates based on feedback
+- Rule updates based on community feedback
 - Program effectiveness evaluation
 - Scope expansion based on needs
 - Reward structure adjustments
 
-## 🛡️ Legal Framework
+## Legal Framework
 
 ### Responsible Disclosure
-- 90-day disclosure timeline for non-critical issues
-- Coordinated disclosure for critical vulnerabilities
+- Coordinated disclosure timeline for critical vulnerabilities
 - Public acknowledgment of researchers
 - No legal action for good-faith testing
 
@@ -157,11 +158,11 @@ Reports may be disqualified for:
 - Public disclosure coordination
 - Attribution in security advisories
 
-## 📞 Support and Communication
+## Support and Communication
 
 ### Contact Information
 - **Security Team**: contact@dex223.io
-- **Emergency**: +1-XXX-XXX-XXXX
+- **Emergency**: Telegram security channel
 - **Telegram**: [Dex223 Security Channel](https://t.me/Dex223_defi)
 - **Discord**: [Dex223 Community](https://discord.gg/t5bdeGC5Jk)
 
@@ -172,17 +173,17 @@ Reports may be disqualified for:
 - **Public**: Security blog and social media
 - **Repository**: [EthereumCommonwealth](https://github.com/EthereumCommonwealth)
 
-## 🔄 Program Updates
+## Program Updates
 
 ### Version Control
 - Rule changes tracked in version control
-- Change notifications to registered researchers
-- 30-day notice for significant changes
-- Grandfathering for ongoing investigations
+- Change notifications to registered researchers when possible
+- Community input on significant changes
+- Flexibility for ongoing investigations
 
 ### Feedback Process
 - Researcher feedback collection
-- Regular program reviews
+- Community-driven program reviews
 - Community input solicitation
 - Continuous improvement implementation
 

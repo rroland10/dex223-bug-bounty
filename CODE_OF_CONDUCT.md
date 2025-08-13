@@ -1,10 +1,10 @@
-# 📜 Dex223 Bug Bounty Code of Conduct
+# Dex223 Bug Bounty Code of Conduct
 
-## 🎯 Our Commitment
+## Our Commitment
 
-Dex223 is committed to fostering an inclusive, respectful, and collaborative environment for all participants in our bug bounty program. This code of conduct outlines our expectations for behavior and the consequences for unacceptable conduct.
+Dex223 is committed to fostering an inclusive, respectful, and collaborative environment for all participants in our bug bounty program. This code of conduct outlines our expectations for behavior and the consequences for unacceptable conduct. As a decentralized team, we value community-driven approaches and flexibility.
 
-## 🤝 Expected Behavior
+## Expected Behavior
 
 ### Professional Conduct
 - **Respect**: Treat all participants with respect and dignity
@@ -16,7 +16,7 @@ Dex223 is committed to fostering an inclusive, respectful, and collaborative env
 ### Communication Standards
 - **Clear**: Use clear, professional language in all communications
 - **Constructive**: Provide helpful feedback and suggestions
-- **Timely**: Respond to requests and updates promptly
+- **Timely**: Respond to requests and updates when possible
 - **Appropriate**: Keep discussions focused on security research
 - **Respectful**: Avoid personal attacks or inflammatory language
 
@@ -27,7 +27,7 @@ Dex223 is committed to fostering an inclusive, respectful, and collaborative env
 - **Coordination**: Coordinate disclosure with our security team
 - **Improvement**: Focus on helping improve security, not just finding bugs
 
-## 🚫 Unacceptable Behavior
+## Unacceptable Behavior
 
 ### Prohibited Actions
 - **Harassment**: Any form of harassment, bullying, or intimidation
@@ -50,15 +50,15 @@ Dex223 is committed to fostering an inclusive, respectful, and collaborative env
 - **Exploitation**: Exploiting vulnerabilities beyond proof of concept
 - **Social Engineering**: Social engineering attacks without permission
 
-## 🛡️ Reporting Violations
+## Reporting Violations
 
 ### How to Report
 If you experience or witness unacceptable behavior:
 
 1. **Immediate**: Contact contact@dex223.io with "CONDUCT VIOLATION" in subject
-2. **Emergency**: Use our emergency contact number for urgent issues
+2. **Emergency**: Use our Telegram security channel for urgent issues
 3. **Anonymous**: Submit anonymous reports through our feedback form
-4. **Escalation**: Contact program leadership if needed
+4. **Escalation**: Contact community moderators if needed
 
 ### What to Include
 - **Description**: Clear description of the incident
@@ -68,40 +68,40 @@ If you experience or witness unacceptable behavior:
 - **Impact**: How it affected you or others
 
 ### Investigation Process
-1. **Acknowledgment**: We'll acknowledge receipt within 24 hours
-2. **Investigation**: Thorough investigation of the reported incident
-3. **Interviews**: Speaking with all parties involved
-4. **Decision**: Making a fair and impartial decision
+1. **Acknowledgment**: We'll acknowledge receipt when possible
+2. **Investigation**: Community-driven investigation of the reported incident
+3. **Community Input**: Gathering input from community members
+4. **Decision**: Making a fair and community-driven decision
 5. **Action**: Taking appropriate corrective action
 6. **Follow-up**: Ensuring the issue is resolved
 
-## ⚖️ Consequences
+## Consequences
 
 ### Warning System
-- **First Violation**: Written warning and education
+- **First Violation**: Community discussion and education
 - **Second Violation**: Temporary suspension from program
 - **Third Violation**: Permanent removal from program
-- **Severe Violation**: Immediate removal and legal action if necessary
+- **Severe Violation**: Immediate removal and community action if necessary
 
 ### Specific Consequences
-- **Scope Violations**: Immediate suspension and review
+- **Scope Violations**: Community review and potential suspension
 - **Harassment**: Zero tolerance - immediate removal
-- **Malicious Testing**: Permanent ban and potential legal action
+- **Malicious Testing**: Permanent ban and community action
 - **False Reports**: Warning and potential suspension
-- **Confidentiality Breaches**: Immediate removal and legal action
+- **Confidentiality Breaches**: Immediate removal and community action
 
 ### Appeal Process
 - **Right to Appeal**: All participants have the right to appeal decisions
-- **Timeline**: Appeals must be submitted within 30 days
-- **Review**: Independent review by program leadership
-- **Final Decision**: Binding decision after appeal review
+- **Timeline**: Appeals should be submitted within 30 days
+- **Review**: Community review and input
+- **Final Decision**: Community-driven decision after appeal review
 
-## 🏆 Positive Recognition
+## Positive Recognition
 
 ### Good Conduct Rewards
 - **Community Helper**: Recognition for helping other researchers
 - **Mentorship**: Opportunities to mentor new participants
-- **Leadership**: Invitations to program advisory roles
+- **Leadership**: Invitations to community advisory roles
 - **Recognition**: Public acknowledgment of positive contributions
 
 ### Examples of Positive Behavior
@@ -111,29 +111,28 @@ If you experience or witness unacceptable behavior:
 - **Community Building**: Contributing to a positive community culture
 - **Innovation**: Developing new tools or methodologies
 
-## 🔄 Continuous Improvement
+## Continuous Improvement
 
 ### Feedback Collection
-- **Regular Surveys**: Quarterly feedback on program culture
+- **Community Feedback**: Regular community input on program culture
 - **Suggestion Box**: Open channel for improvement suggestions
-- **Community Meetings**: Regular discussions on program culture
+- **Community Discussions**: Regular discussions on program culture
 - **Anonymous Feedback**: Anonymous channels for sensitive feedback
 
 ### Policy Updates
-- **Regular Review**: Annual review of code of conduct
+- **Community Review**: Community input on code of conduct updates
 - **Community Input**: Incorporating community feedback
-- **Best Practices**: Following industry best practices
+- **Best Practices**: Following community best practices
 - **Transparency**: Clear communication about policy changes
 
-## 📞 Support Resources
+## Support Resources
 
 ### Immediate Support
 - **Security Team**: contact@dex223.io
-- **Emergency Contact**: +1-XXX-XXX-XXXX
-- **Telegram Moderation**: @moderators in Telegram
-- **Discord Moderation**: @moderators in Discord
+- **Telegram Moderation**: Community moderators in Telegram
+- **Discord Moderation**: Community moderators in Discord
 - **GitHub**: [EthereumCommonwealth](https://github.com/EthereumCommonwealth)
-- **Anonymous Reporting**: [Feedback Form](https://forms.dex223.com/conduct)
+- **Anonymous Reporting**: Community feedback channels
 
 ### External Resources
 - **Mental Health**: Crisis hotlines and counseling services
@@ -141,7 +140,7 @@ If you experience or witness unacceptable behavior:
 - **Community Support**: Peer support groups and networks
 - **Professional Development**: Resources for career growth
 
-## 🌟 Our Values
+## Our Values
 
 ### Core Principles
 - **Security First**: Prioritizing the security of our platform and users
@@ -153,7 +152,7 @@ If you experience or witness unacceptable behavior:
 ### Commitment to Diversity
 - **Equal Opportunity**: Equal access to program participation
 - **Inclusive Environment**: Creating a welcoming environment for all
-- **Representation**: Ensuring diverse representation in program leadership
+- **Community Representation**: Ensuring diverse community representation
 - **Cultural Sensitivity**: Respecting different cultural backgrounds
 - **Accessibility**: Making the program accessible to all participants
 

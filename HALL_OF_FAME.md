@@ -1,8 +1,8 @@
-# 🏆 Dex223 Security Hall of Fame
+# Dex223 Security Hall of Fame
 
-## 🎖️ Top Contributors
+## Top Contributors
 
-### 🥇 Gold Level ($15,000+ Total Rewards)
+### Gold Level ($15,000+ Total Rewards)
 
 | Researcher | Total Rewards | Critical | High | Medium | Low | Info |
 |------------|---------------|----------|------|--------|-----|------|
@@ -10,7 +10,7 @@
 | **@smart_contract_hunt** | $15,100 | 1 | 2 | 4 | 2 | 1 |
 | **@web3_security_guru** | $14,800 | 1 | 2 | 5 | 2 | 0 |
 
-### 🥈 Silver Level ($8,000 - $14,999 Total Rewards)
+### Silver Level ($8,000 - $14,999 Total Rewards)
 
 | Researcher | Total Rewards | Critical | High | Medium | Low | Info |
 |------------|---------------|----------|------|--------|-----|------|
@@ -18,7 +18,7 @@
 | **@blockchain_auditor** | $10,100 | 0 | 2 | 5 | 2 | 1 |
 | **@security_architect** | $9,900 | 0 | 2 | 6 | 2 | 1 |
 
-### 🥉 Bronze Level ($3,000 - $7,999 Total Rewards)
+### Bronze Level ($3,000 - $7,999 Total Rewards)
 
 | Researcher | Total Rewards | Critical | High | Medium | Low | Info |
 |------------|---------------|----------|------|--------|-----|------|
@@ -26,9 +26,9 @@
 | **@smart_contract_analyst** | $6,750 | 0 | 1 | 3 | 2 | 1 |
 | **@web_security_expert** | $5,200 | 0 | 1 | 3 | 2 | 1 |
 
-## 🏅 Notable Achievements
+## Notable Achievements
 
-### 🚨 Critical Vulnerability Discoveries
+### Critical Vulnerability Discoveries
 
 #### Reentrancy Attack in Swap Function
 - **Researcher**: @cryptosec
@@ -42,7 +42,7 @@
 - **Impact**: Price manipulation attacks
 - **Fix**: Added multiple oracle sources
 
-### 🔍 Innovative Research
+### Innovative Research
 
 #### Novel MEV Attack Vector
 - **Researcher**: @web3_security_guru
@@ -56,7 +56,7 @@
 - **Impact**: Complex multi-step attack vector
 - **Fix**: Enhanced validation logic
 
-## 📊 Program Statistics
+## Program Statistics
 
 ### Total Program Metrics
 - **Total Rewards Distributed**: $647,500
@@ -85,30 +85,30 @@
 - **Most Critical**: Flash loan exploit
 - **New Contributors**: 31
 
-## 🎯 Special Recognition
+## Special Recognition
 
-### 🏆 Researcher of the Year 2025
+### Researcher of the Year 2025
 **@cryptosec**
 - **Total Contributions**: 13 valid reports
 - **Impact**: 2 critical vulnerabilities fixed
 - **Innovation**: Novel attack vector discovery
 - **Community**: Active in Telegram discussions
 
-### 🌟 Rising Star 2025
+### Rising Star 2025
 **@researcher_2025**
 - **First Report**: May 2025
 - **Total Rewards**: $3,500
 - **Specialty**: Smart contract analysis
 - **Future**: Promising security researcher
 
-### 🎖️ Lifetime Achievement
+### Lifetime Achievement
 **@veteran_hunt**
 - **Years Active**: 3+
 - **Total Reports**: 45
 - **Consistency**: Monthly contributions
 - **Mentorship**: Helps new researchers
 
-## 📈 Growth Trends
+## Growth Trends
 
 ### Program Evolution
 - **2022**: $75,000 distributed, 89 researchers
@@ -128,17 +128,18 @@
 - **Medium**: Increasing (better detection)
 - **Low**: Stable (maintenance level)
 
-## 🤝 Community Contributions
+## Community Contributions
 
 ### Open Source Tools
+Community members contribute various security tools and scripts
 
 ### Educational Content
-
+Researchers share knowledge through blog posts and tutorials
 
 ### Conference Presentations
+Community members present findings at security conferences
 
-
-## 🎁 Recognition Program
+## Recognition Program
 
 ### Monthly Awards
 - **Researcher of the Month**: $300 bonus
@@ -152,7 +153,7 @@
 - **Innovation Award**: $2,500 bonus
 - **Community Award**: $1,000 bonus
 
-## 📞 Get Involved
+## Get Involved
 
 ### Join the Community
 - **Telegram**: [Dex223 Security Channel](https://t.me/Dex223_defi)
@@ -165,7 +166,7 @@
 
 ### Mentorship Program
 - **Experienced researchers** mentor newcomers
-- **Monthly office hours** for Q&A
+- **Community discussions** for Q&A
 - **Code review sessions** for learning
 - **Collaboration opportunities** on complex issues
 

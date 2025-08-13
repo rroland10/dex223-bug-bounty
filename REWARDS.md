@@ -1,12 +1,12 @@
-# 💰 Dex223 Bug Bounty Rewards
+# Dex223 Bug Bounty Rewards
 
-## 🏆 Reward Structure Overview
+## Reward Structure Overview
 
 The Dex223 Bug Bounty Program offers competitive rewards for security vulnerabilities found in our platform. Rewards are determined based on severity, impact, and quality of the report. Our program is designed to attract top-tier security researchers while maintaining sustainable reward levels with a total pool of $100,000 USD.
 
-## 📊 Reward Tiers
+## Reward Tiers
 
-### 🚨 Critical Severity ($5,000 - $15,000)
+### Critical Severity ($5,000 - $15,000)
 
 **Examples:**
 - Remote code execution (RCE) on production systems
@@ -21,7 +21,7 @@ The Dex223 Bug Bounty Program offers competitive rewards for security vulnerabil
 - **Complete System Compromise**: $10,000 - $15,000
 - **Mass Account Takeover**: $5,000 - $10,000
 
-### 🔴 High Severity ($2,000 - $8,000)
+### High Severity ($2,000 - $8,000)
 
 **Examples:**
 - Unauthorized access to sensitive data
@@ -37,7 +37,7 @@ The Dex223 Bug Bounty Program offers competitive rewards for security vulnerabil
 - **Authentication Bypass**: $2,500 - $6,000
 - **Privilege Escalation**: $2,000 - $7,000
 
-### 🟡 Medium Severity ($300 - $3,000)
+### Medium Severity ($300 - $3,000)
 
 **Examples:**
 - Information disclosure
@@ -53,7 +53,7 @@ The Dex223 Bug Bounty Program offers competitive rewards for security vulnerabil
 - **Weak Encryption**: $800 - $2,500
 - **Business Logic Flaw**: $600 - $3,000
 
-### 🟢 Low Severity ($100 - $800)
+### Low Severity ($100 - $800)
 
 **Examples:**
 - UI/UX security issues
@@ -69,7 +69,7 @@ The Dex223 Bug Bounty Program offers competitive rewards for security vulnerabil
 - **UI Security Issues**: $150 - $500
 - **Best Practice Violations**: $100 - $400
 
-### ℹ️ Informational ($50 - $300)
+### Informational ($50 - $300)
 
 **Examples:**
 - Documentation improvements
@@ -85,7 +85,7 @@ The Dex223 Bug Bounty Program offers competitive rewards for security vulnerabil
 - **Performance Issues**: $50 - $100
 - **Educational Content**: $75 - $300
 
-## 🎯 Smart Contract Specific Rewards
+## Smart Contract Specific Rewards
 
 ### DeFi Protocol Vulnerabilities
 - **Reentrancy Attacks**: $4,000 - $12,000
@@ -98,30 +98,24 @@ The Dex223 Bug Bounty Program offers competitive rewards for security vulnerabil
 
 ### Token Contract Issues
 - **Mint Function Vulnerabilities**: $1,500 - $6,000
-- **Transfer Logic Flaws**: $1,000 - $5,000
-- **Access Control Issues**: $1,200 - $5,000
-- **Gas Optimization**: $200 - $1,000
+- **Transfer Logic Flaws**: $2,000 - $7,000
+- **Access Control Issues**: $1,000 - $5,000
+- **Token Standard Violations**: $800 - $4,000
 
-## 🏅 Bonus Rewards
+## Bonus Rewards
 
 ### Quality Bonuses
-- **Excellent Documentation**: +20% bonus
-- **Working Proof of Concept**: +15% bonus
-- **Remediation Suggestions**: +10% bonus
-- **Comprehensive Analysis**: +25% bonus
+- **Excellent Documentation**: +10% to +25%
+- **Working Proof of Concept**: +15% to +30%
+- **Remediation Suggestions**: +5% to +15%
+- **Comprehensive Analysis**: +10% to +20%
 
-### Innovation Bonuses
-- **Novel Attack Vector**: +30% bonus
-- **Zero-Day Discovery**: +50% bonus
-- **Advanced Techniques**: +20% bonus
-- **Research Publication**: +15% bonus
-
-### Speed Bonuses
+### Special Bonuses
 - **First Report**: +25% bonus
 - **Quick Response**: +10% bonus
 - **Coordinated Disclosure**: +15% bonus
 
-## 💳 Payment Methods
+## Payment Methods
 
 ### Supported Payment Options
 - **Cryptocurrency**: Bitcoin, Ethereum, USDC, USDT
@@ -130,14 +124,15 @@ The Dex223 Bug Bounty Program offers competitive rewards for security vulnerabil
 - **Gift Cards**: Amazon, Apple, Google Play
 
 ### Payment Timeline
-- **Critical Issues**: Within 7 days of resolution
-- **High Severity**: Within 14 days of resolution
-- **Medium Severity**: Within 30 days of resolution
-- **Low/Info**: Within 60 days of resolution
+We aim to process payments as quickly as possible:
+- **Critical Issues**: Within 1-2 weeks of resolution
+- **High Severity**: Within 2-4 weeks of resolution
+- **Medium Severity**: Within 4-8 weeks of resolution
+- **Low/Info**: Within 6-12 weeks of resolution
 
-*Effective: July 2025*
+*Note: Payment times may vary based on team availability and complexity*
 
-## 📈 Reward Calculation Examples
+## Reward Calculation Examples
 
 ### Example 1: Smart Contract Reentrancy
 - **Base Reward**: $10,000 (Critical)
@@ -157,7 +152,7 @@ The Dex223 Bug Bounty Program offers competitive rewards for security vulnerabil
 - **Quality Bonus**: +$300 (Comprehensive analysis)
 - **Total Reward**: $1,800
 
-## 🎖️ Special Programs
+## Special Programs
 
 ### Monthly Challenges
 - **Theme-based challenges**: $1,000 - $4,000
@@ -169,7 +164,7 @@ The Dex223 Bug Bounty Program offers competitive rewards for security vulnerabil
 - **Academic partnerships**: Research funding
 - **Community leaders**: Recognition and rewards
 
-## 📊 Payment Statistics
+## Payment Statistics
 
 ### Historical Data
 - **Average Reward**: $1,800
@@ -183,13 +178,13 @@ The Dex223 Bug Bounty Program offers competitive rewards for security vulnerabil
 - **Dispute Resolution**: 100%
 - **Researcher Satisfaction**: 4.8/5.0
 
-## 🔄 Reward Appeals
+## Reward Appeals
 
 ### Appeal Process
 1. **Submit Appeal**: Within 30 days of decision
-2. **Review Period**: 14 days for evaluation
-3. **Independent Review**: Third-party security expert
-4. **Final Decision**: Binding resolution
+2. **Review Period**: 14-30 days for evaluation
+3. **Community Review**: Input from security community
+4. **Final Decision**: Community-driven resolution
 
 ### Appeal Grounds
 - **Severity Misclassification**: Clear evidence of higher impact
@@ -197,7 +192,7 @@ The Dex223 Bug Bounty Program offers competitive rewards for security vulnerabil
 - **Scope Dispute**: Valid in-scope vulnerability
 - **Quality Recognition**: Exceptional report quality
 
-## 📋 Tax Information
+## Tax Information
 
 ### Tax Reporting
 - **US Residents**: 1099-MISC forms for payments >$600

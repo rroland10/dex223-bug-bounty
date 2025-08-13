@@ -1,6 +1,6 @@
-# 📝 Bug Report Template
+# Bug Report Template
 
-## 🎯 Executive Summary
+## Executive Summary
 
 **Vulnerability Title**: [Brief, descriptive title]
 
@@ -16,7 +16,7 @@
 
 **Report ID**: [Auto-generated]
 
-## 📋 Vulnerability Details
+## Vulnerability Details
 
 ### Description
 [Clear, concise description of the vulnerability]
@@ -36,7 +36,7 @@
 - [Access levels needed]
 - [Special tools or knowledge]
 
-## 🔧 Proof of Concept
+## Proof of Concept
 
 ### Code/Commands
 ```[language]
@@ -51,7 +51,7 @@
 - **Smart Contract Address**: [If applicable]
 - **Test Account**: [If applicable]
 
-## 🛠️ Technical Analysis
+## Technical Analysis
 
 ### Root Cause
 [Technical explanation of why this vulnerability exists]
@@ -66,7 +66,7 @@
 - **Reliability**: [Always/Sometimes/Rarely]
 - **Automation**: [Manual/Semi-automated/Fully automated]
 
-## 🔒 Remediation
+## Remediation
 
 ### Suggested Fix
 [Detailed recommendations for fixing the vulnerability]
@@ -79,7 +79,7 @@
 ### Alternative Solutions
 [Other approaches that could address the issue]
 
-## 📊 Additional Information
+## Additional Information
 
 ### Related Vulnerabilities
 [Any similar issues you've found]
@@ -96,7 +96,7 @@
 - **Verification**: [Date]
 - **Report Submission**: [Date]
 
-## 👤 Researcher Information
+## Researcher Information
 
 **Name**: [Your name or handle]
 
@@ -108,7 +108,7 @@
 
 **Disclosure Preference**: [Public/Private/Coordinated]
 
-## 📎 Attachments
+## Attachments
 
 - [ ] Proof of concept code
 - [ ] Screenshots/videos
