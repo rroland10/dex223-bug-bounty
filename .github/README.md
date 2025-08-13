@@ -2,9 +2,9 @@
 
 This directory contains templates to make it easy to submit reports and interact with the Dex223 Bug Bounty Program.
 
-## 📝 Available Templates
+## Available Templates
 
-### 🐛 Bug Report
+### Bug Report
 Use this template to report security vulnerabilities or bugs you've found.
 
 **What to include:**
@@ -14,7 +14,7 @@ Use this template to report security vulnerabilities or bugs you've found.
 - Evidence (screenshots, code, etc.)
 - Your contact information for rewards
 
-### 💡 Feature Request
+### Feature Request
 Use this template to suggest improvements to the bug bounty program.
 
 **What to include:**
@@ -23,7 +23,7 @@ Use this template to suggest improvements to the bug bounty program.
 - How it should work
 - Any alternatives you've considered
 
-### ❓ Question
+### Question
 Use this template to ask questions about the program or get help.
 
 **What to include:**
@@ -31,7 +31,7 @@ Use this template to ask questions about the program or get help.
 - What you've already tried
 - Any relevant context
 
-## 🚀 How to Use
+## How to Use
 
 1. Go to [https://github.com/rroland10/dex223-bug-bounty/issues](https://github.com/rroland10/dex223-bug-bounty/issues)
 2. Click "New Issue"
@@ -39,13 +39,13 @@ Use this template to ask questions about the program or get help.
 4. Fill in the information
 5. Submit the issue
 
-## 🔒 Security Notes
+## Security Notes
 
 - **Public Issues**: Most issues are public and visible to everyone
 - **Sensitive Reports**: For extremely sensitive vulnerabilities, consider using GitHub Security Advisories
 - **Responsible Disclosure**: Always follow responsible disclosure practices
 
-## 💰 Rewards
+## Rewards
 
 Valid security reports are eligible for rewards ranging from $50 to $15,000 USD. See our [Rewards Structure](../REWARDS.md) for more details.
 

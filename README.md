@@ -1,4 +1,4 @@
-# 🐛 Dex223 Bug Bounty Program
+# Dex223 Bug Bounty Program
 
 [![Bug Bounty](https://img.shields.io/badge/Bug%20Bounty-Active-brightgreen)](https://github.com/dex223/bug-bounty)
 [![Security](https://img.shields.io/badge/Security-Responsible%20Disclosure-blue)](https://github.com/dex223/bug-bounty/blob/main/SECURITY.md)
@@ -6,7 +6,7 @@
 [![Status](https://img.shields.io/badge/Status-Active%20Program-success)](https://github.com/dex223/bug-bounty)
 [![Community](https://img.shields.io/badge/Community-500%2B%20Researchers-blueviolet)](https://t.me/Dex223_defi)
 
-## 🎯 Overview
+## Overview
 
 Welcome to the **Dex223 Bug Bounty Program**! We're committed to maintaining the highest security standards for our decentralized exchange platform built on the ERC-223 token standard. This program encourages security researchers and ethical hackers to identify and responsibly disclose vulnerabilities in our systems.
 
@@ -19,7 +19,7 @@ Dex223 is a decentralized exchange that addresses the critical security issues o
 
 
 
-## 📋 Table of Contents
+## Table of Contents
 
 - [Overview](#-overview)
 - [Quick Start](#-quick-start)
@@ -36,7 +36,7 @@ Dex223 is a decentralized exchange that addresses the critical security issues o
 3. **Submit Reports**: Just open a [GitHub issue](https://github.com/rroland10/dex223-bug-bounty/issues) to describe your problem. Our team members will review these public reports and respond in the comments thread.
 4. **Get Rewarded**: Check our [Rewards Structure](REWARDS.md)
 
-## 🚀 How to Submit a Report
+## How to Submit a Report
 
 **It's super simple!**
 
@@ -48,7 +48,7 @@ Dex223 is a decentralized exchange that addresses the critical security issues o
 
 **No complex forms, no email templates, no PGP keys - just a simple GitHub issue!**
 
-## 📋 Program Scope
+## Program Scope
 
 ### In Scope
 - **Smart Contracts**: All Dex223 smart contracts on Ethereum mainnet and testnets
@@ -94,11 +94,11 @@ Dex223 is a decentralized exchange that addresses the critical security issues o
 - [Hall of Fame](HALL_OF_FAME.md)
 - [FAQ](FAQ.md)
 
-## 🏆 Hall of Fame
+## Hall of Fame
 
 Check out our [Hall of Fame](HALL_OF_FAME.md) to see researchers who have contributed to our security!
 
-## 📞 Contact & Community
+## Contact & Community
 
 ### Security Contact
 - **Email**: contact@dex223.io
@@ -122,7 +122,7 @@ Check out our [Hall of Fame](HALL_OF_FAME.md) to see researchers who have contri
 
 ---
 
-**⚠️ Important**: Always follow responsible disclosure practices. Do not exploit vulnerabilities beyond what's necessary to demonstrate the issue.
+**Important**: Always follow responsible disclosure practices. Do not exploit vulnerabilities beyond what's necessary to demonstrate the issue.
 
 ---
 

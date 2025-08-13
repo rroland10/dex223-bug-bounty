@@ -1,16 +1,16 @@
 ---
-name: 💡 Feature Request
+name: Feature Request
 about: Suggest an idea for the bug bounty program
 title: "[FEATURE] "
 labels: ['enhancement', 'feature-request']
 assignees: ''
 ---
 
-## 💡 Feature Description
+## Feature Description
 **What would you like to see?**
 A clear and concise description of the feature you'd like to suggest.
 
-## 🎯 Problem it solves
+## Problem it solves
 **What problem does this feature solve?**
 - Makes reporting easier?
 - Improves security?
@@ -21,11 +21,11 @@ A clear and concise description of the feature you'd like to suggest.
 **How should this work?**
 Describe how you think this feature should work.
 
-## 🔄 Alternative Solutions
+## Alternative Solutions
 **Any other ways to solve this?**
 Are there other approaches we could consider?
 
-## 📋 Additional Context
+## Additional Context
 **Any other context or screenshots:**
 Add any other context, mockups, or information here.
 
