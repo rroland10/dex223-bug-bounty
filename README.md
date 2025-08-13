@@ -67,7 +67,6 @@ Dex223 is a decentralized exchange that addresses the critical security issues o
 ### Security Features
 - **ERC-223 Standard**: Enhanced token security
 - **Multi-Signature Wallets**: Advanced access control
-- **Real-time Monitoring**: 24/7 security surveillance
 - **Automated Auditing**: Continuous vulnerability scanning
 - **Responsible Disclosure**: Coordinated security updates
 
