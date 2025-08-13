@@ -63,17 +63,16 @@ Yes, you're responsible for reporting and paying taxes on your rewards. We provi
 ## Reporting Questions
 
 ### How do I submit a report?
-1. Use our [Report Template](REPORT_TEMPLATE.md)
-2. Send to contact@dex223.io
-3. Include all required information and proof of concept
+1. Go to [https://github.com/rroland10/dex223-bug-bounty/issues](https://github.com/rroland10/dex223-bug-bounty/issues)
+2. Click "New Issue"
+3. Describe the vulnerability and include any evidence
+4. Submit the issue
 
 ### What should I include in my report?
 - Clear description of the vulnerability
-- Step-by-step reproduction steps
-- Proof of concept (code, screenshots, videos)
-- Impact assessment
-- Suggested fixes
-- Your contact information
+- How to reproduce the issue
+- Any evidence (screenshots, code, videos)
+- Your contact information for rewards
 
 ### How long does it take to get a response?
 We aim to respond to all reports as quickly as possible:
@@ -192,14 +191,14 @@ Absolutely! We welcome feedback on:
 ## Emergency Questions
 
 ### What if I find a critical vulnerability being exploited?
-1. **Contact us immediately** via email or Telegram
+1. **Open a GitHub issue immediately** with "CRITICAL" in the title
 2. **Don't publicly disclose** the vulnerability
 3. **Provide minimal details** needed for immediate response
 4. **Follow our coordinated disclosure process**
 
 ### What if my report is urgent?
 For urgent issues:
-- Send email with "URGENT" in subject to contact@dex223.io
+- Open a GitHub issue with "URGENT" in the title
 - Post in Telegram security channel (for critical issues only)
 - We'll respond as quickly as possible
 
@@ -212,6 +211,6 @@ For urgent issues:
 
 ---
 
-**Still have questions?** Contact us at contact@dex223.io or join our Telegram/Discord community!
+**Still have questions?** Open a GitHub issue or join our Telegram/Discord community!
 
 *Last Updated: July 2025* 

@@ -29,12 +29,24 @@ Dex223 is a decentralized exchange that addresses the critical security issues o
 - [Hall of Fame](#-hall-of-fame)
 - [Contact & Community](#-contact--community)
 
-## 🚀 Quick Start
+## Quick Start
 
 1. **Read the Rules**: Review our [Program Rules](RULES.md) and [Code of Conduct](CODE_OF_CONDUCT.md)
 2. **Set Up Environment**: Follow our [Testing Guide](TESTING_GUIDE.md)
-3. **Submit Reports**: Use our [Report Template](REPORT_TEMPLATE.md)
+3. **Submit Reports**: Just open a [GitHub issue](https://github.com/rroland10/dex223-bug-bounty/issues) to describe your problem. Our team members will review these public reports and respond in the comments thread.
 4. **Get Rewarded**: Check our [Rewards Structure](REWARDS.md)
+
+## 🚀 How to Submit a Report
+
+**It's super simple!**
+
+1. **Go to**: [https://github.com/rroland10/dex223-bug-bounty/issues](https://github.com/rroland10/dex223-bug-bounty/issues)
+2. **Click**: "New Issue"
+3. **Choose**: "Bug Report" template
+4. **Fill in**: What you found, where it is, how to reproduce it
+5. **Submit**: That's it!
+
+**No complex forms, no email templates, no PGP keys - just a simple GitHub issue!**
 
 ## 📋 Program Scope
 
@@ -75,15 +87,14 @@ Dex223 is a decentralized exchange that addresses the critical security issues o
 | **Low** | $100 - $800 | UI/UX issues, minor configuration problems |
 | **Info** | $50 - $300 | Best practices, documentation improvements |
 
-## 🔗 Important Links
+## Important Links
 
-- [📋 Program Rules](RULES.md)
-- [💰 Rewards Structure](REWARDS.md)
-- [🔒 Security Policy](SECURITY.md)
-- [📝 Report Template](REPORT_TEMPLATE.md)
-- [🧪 Testing Guide](TESTING_GUIDE.md)
-- [📊 Hall of Fame](HALL_OF_FAME.md)
-- [❓ FAQ](FAQ.md)
+- [Program Rules](RULES.md)
+- [Rewards Structure](REWARDS.md)
+- [Security Policy](SECURITY.md)
+- [Testing Guide](TESTING_GUIDE.md)
+- [Hall of Fame](HALL_OF_FAME.md)
+- [FAQ](FAQ.md)
 
 ## 🏆 Hall of Fame
 

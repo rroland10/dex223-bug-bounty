@@ -55,7 +55,7 @@ Dex223 is committed to fostering an inclusive, respectful, and collaborative env
 ### How to Report
 If you experience or witness unacceptable behavior:
 
-1. **Immediate**: Contact contact@dex223.io with "CONDUCT VIOLATION" in subject
+1. **Immediate**: Open a [GitHub issue](https://github.com/rroland10/dex223-bug-bounty/issues) with "CONDUCT VIOLATION" in the title
 2. **Emergency**: Use our Telegram security channel for urgent issues
 3. **Anonymous**: Submit anonymous reports through our feedback form
 4. **Escalation**: Contact community moderators if needed
@@ -128,7 +128,7 @@ If you experience or witness unacceptable behavior:
 ## Support Resources
 
 ### Immediate Support
-- **Security Team**: contact@dex223.io
+- **Security Team**: [GitHub Issues](https://github.com/rroland10/dex223-bug-bounty/issues)
 - **Telegram Moderation**: Community moderators in Telegram
 - **Discord Moderation**: Community moderators in Discord
 - **GitHub**: [EthereumCommonwealth](https://github.com/EthereumCommonwealth)

@@ -262,4 +262,6 @@ def scan_for_xss(url):
 
 **Remember**: Always follow responsible disclosure practices and respect the testing scope.
 
+**Found a vulnerability?** Simply open a [GitHub issue](https://github.com/rroland10/dex223-bug-bounty/issues) to report it!
+
 *Last Updated: July 2025* 

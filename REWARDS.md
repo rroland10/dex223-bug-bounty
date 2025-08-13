@@ -210,5 +210,7 @@ We aim to process payments as quickly as possible:
 
 **Note**: All rewards are subject to program rules and terms. Dex223 reserves the right to adjust rewards based on program budget and severity assessment.
 
+**Found a vulnerability?** Simply open a [GitHub issue](https://github.com/rroland10/dex223-bug-bounty/issues) to report it!
+
 **Last Updated**: July 2025  
 **Next Review**: October 2025 

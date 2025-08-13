@@ -24,9 +24,9 @@ We aim to address vulnerabilities as quickly as possible:
 
 ### Reporting Guidelines
 
-1. **Send reports** to contact@dex223.io
-2. **Include detailed reproduction steps**
-3. **Provide proof of concept** when possible
+1. **Open a GitHub issue** at [https://github.com/rroland10/dex223-bug-bounty/issues](https://github.com/rroland10/dex223-bug-bounty/issues)
+2. **Describe the problem** clearly
+3. **Include evidence** (screenshots, code, etc.) when possible
 4. **Allow reasonable time** for fixes before public disclosure
 5. **Coordinate disclosure** for critical vulnerabilities
 

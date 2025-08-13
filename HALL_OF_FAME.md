@@ -174,4 +174,6 @@ Community members present findings at security conferences
 
 **Congratulations to all our security researchers! Your contributions make Dex223 safer for everyone.**
 
+**Want to join the Hall of Fame?** Simply open a [GitHub issue](https://github.com/rroland10/dex223-bug-bounty/issues) to report vulnerabilities!
+
 *Last Updated: July 2025* 

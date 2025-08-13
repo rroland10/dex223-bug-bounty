@@ -44,25 +44,22 @@ The Dex223 Bug Bounty Program is designed to identify and fix security vulnerabi
 ## Submission Requirements
 
 ### Report Format
-All submissions should follow our [Report Template](REPORT_TEMPLATE.md) and include:
+All submissions should include:
 
-1. **Executive Summary**: Clear description of the vulnerability
-2. **Technical Details**: Step-by-step reproduction steps
-3. **Impact Assessment**: Potential damage and affected systems
-4. **Proof of Concept**: Working exploit or demonstration
-5. **Remediation Suggestions**: Recommended fixes
-6. **CVSS Score**: Common Vulnerability Scoring System rating
+1. **Clear Description**: What the vulnerability is
+2. **Reproduction Steps**: How to reproduce the issue
+3. **Impact**: What could happen if exploited
+4. **Proof of Concept**: Evidence of the vulnerability (screenshots, code, etc.)
+5. **Suggested Fix**: How you think it could be fixed
 
 ### Required Information
-- **Vulnerability Type**: Categorization (e.g., SQL injection, reentrancy)
-- **Affected Components**: Specific files, contracts, or endpoints
-- **Attack Vector**: How the vulnerability can be exploited
-- **Prerequisites**: Required conditions or access levels
-- **Timeline**: When the vulnerability was discovered
-- **Researcher Info**: Contact details and preferred payment method
+- **What you found**: Brief description of the vulnerability
+- **Where it is**: Which part of the system is affected
+- **How to test it**: Steps to reproduce the issue
+- **Your contact info**: How we can reach you for rewards
 
 ### Submission Channels
-- **Primary**: contact@dex223.io
+- **Primary**: [GitHub Issues](https://github.com/rroland10/dex223-bug-bounty/issues)
 - **Backup**: GitHub Security Advisories
 - **Emergency**: Telegram security channel (for critical issues)
 
