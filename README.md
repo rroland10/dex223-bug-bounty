@@ -12,7 +12,7 @@ Welcome to the **Dex223 Bug Bounty Program**! We're committed to maintaining the
 
 ### About Dex223
 Dex223 is a decentralized exchange that addresses the critical security issues of the ERC-20 standard by implementing the ERC-223 token standard. Our platform provides:
-- **Enhanced Security**: ERC-223 prevents accidental token loss
+- **Enhanced Security**: ERC-223 prevents accidental token loss and removes the need for approvals completely. ERC-223 tokens can be utilized without approve+transferFrom pattern.
 - **Backward Compatibility**: Works with existing ERC-20 tokens
 - **Encapsulated Margin Trading**: Innovative trading features
 - **Fiat Onramp Integration**: On/Off-ramp
