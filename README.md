@@ -2,7 +2,7 @@
 
 [![Bug Bounty](https://img.shields.io/badge/Bug%20Bounty-Active-brightgreen)](https://github.com/dex223/bug-bounty)
 [![Security](https://img.shields.io/badge/Security-Responsible%20Disclosure-blue)](https://github.com/dex223/bug-bounty/blob/main/SECURITY.md)
-[![Rewards](https://img.shields.io/badge/Rewards-Up%20to%20$15,000-orange)](https://github.com/dex223/bug-bounty/blob/main/REWARDS.md)
+[![Rewards](https://img.shields.io/badge/Rewards-Up%20to%2030M%20D223-orange)](https://github.com/dex223/bug-bounty/blob/main/REWARDS.md)
 [![Status](https://img.shields.io/badge/Status-Active%20Program-success)](https://github.com/dex223/bug-bounty)
 [![Community](https://img.shields.io/badge/Community-500%2B%20Researchers-blueviolet)](https://t.me/Dex223_defi)
 
@@ -76,15 +76,14 @@ Dex223 is a decentralized exchange that addresses the critical security issues o
 - Third-party services not under our control
 - Known vulnerabilities in dependencies
 
-## 🎁 Reward Tiers
+## Reward Tiers
 
-| Severity | Reward Range | Description |
-|----------|-------------|-------------|
-| **Critical** | $5,000 - $15,000 | Remote code execution, fund theft, complete system compromise |
-| **High** | $2,000 - $8,000 | Unauthorized access, data breaches, smart contract vulnerabilities |
-| **Medium** | $300 - $3,000 | Information disclosure, privilege escalation |
-| **Low** | $100 - $800 | UI/UX issues, minor configuration problems |
-| **Info** | $50 - $300 | Best practices, documentation improvements |
+| Severity | Reward | Description |
+|----------|---------|-------------|
+| **Critical** | 30M D223 | A vulnerability that can completely break the contracts workflow |
+| **High** | 7M D223 | A bug report that indicates a high severity problem but can't impact the whole platform |
+| **Medium** | 3M D223 | A low-severity problem that can lead to a loss of funds but under specific conditions |
+| **Info** | 1M D223 | Anything else - best practices, documentation improvements, etc. |
 
 ## Important Links
 
