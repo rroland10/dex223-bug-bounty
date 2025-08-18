@@ -4,7 +4,7 @@
 
 **Vulnerability Title**: [Brief, descriptive title]
 
-**Severity**: [Critical/High/Medium/Low/Info]
+**Severity**: [Critical/High/Medium/Info]
 
 **CVSS Score**: [X.X] - [Vector String]
 
@@ -102,9 +102,7 @@
 
 **Email**: [Your email]
 
-**PGP Key**: [Your PGP key if you have one]
-
-**Preferred Payment Method**: [Cryptocurrency/Bank Transfer/etc.]
+**Preferred Payment Method**: [D223 Tokens/Cryptocurrency/Bank Transfer/etc.]
 
 **Disclosure Preference**: [Public/Private/Coordinated]
 
@@ -118,6 +116,22 @@
 
 ---
 
-**Note**: Please send reports to contact@dex223.io with all required information and proof of concept.
+**How to Submit Your Report**
+
+**It's super simple!**
+
+1. **Go to**: [https://github.com/rroland10/dex223-bug-bounty/issues](https://github.com/rroland10/dex223-bug-bounty/issues)
+2. **Click**: "New Issue"
+3. **Choose**: "Bug Report" template
+4. **Fill in**: What you found, where it is, how to reproduce it
+5. **Submit**: That's it!
+
+**No complex forms, no email templates, no PGP keys - just a simple GitHub issue!**
+
+Our team members will review these public reports and respond in the comments thread.
+
+---
+
+**Note**: This template is provided as a guide. You can also submit reports directly through our GitHub issue templates for an even simpler experience.
 
 *Last Updated: July 2025* 
