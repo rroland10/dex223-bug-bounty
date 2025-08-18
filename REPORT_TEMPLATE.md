@@ -102,7 +102,7 @@
 
 **Email**: [Your email]
 
-**Preferred Payment Method**: [D223 Tokens/Cryptocurrency/Bank Transfer/etc.]
+**Preferred Payment Method**: [D223 Tokens only]
 
 **Disclosure Preference**: [Public/Private/Coordinated]
 
