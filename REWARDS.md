@@ -2,11 +2,13 @@
 
 ## Reward Structure Overview
 
-The Dex223 Bug Bounty Program offers competitive rewards for security vulnerabilities found in our platform. Rewards are determined based on severity, impact, and quality of the report. Our program is designed to attract top-tier security researchers while maintaining sustainable reward levels with a total pool of $100,000 USD.
+The Dex223 Bug Bounty Program offers competitive rewards in D223 tokens for security vulnerabilities found in our platform. Rewards are determined based on severity and impact. Our program is designed to attract top-tier security researchers while maintaining sustainable reward levels.
 
 ## Reward Tiers
 
-### Critical Severity ($5,000 - $15,000)
+### Critical Severity (30M D223)
+
+**Description**: A vulnerability that can completely break the contracts workflow
 
 **Examples:**
 - Remote code execution (RCE) on production systems
@@ -15,13 +17,9 @@ The Dex223 Bug Bounty Program offers competitive rewards for security vulnerabil
 - Authentication bypass with admin privileges
 - Critical infrastructure compromise
 
-**Specific Rewards:**
-- **Smart Contract Fund Theft**: $8,000 - $15,000
-- **RCE on Production**: $6,000 - $12,000
-- **Complete System Compromise**: $10,000 - $15,000
-- **Mass Account Takeover**: $5,000 - $10,000
+### High Severity (7M D223)
 
-### High Severity ($2,000 - $8,000)
+**Description**: A bug report that indicates a high severity problem but can't impact the whole platform
 
 **Examples:**
 - Unauthorized access to sensitive data
@@ -30,14 +28,9 @@ The Dex223 Bug Bounty Program offers competitive rewards for security vulnerabil
 - Smart contract logic flaws
 - Privilege escalation
 
-**Specific Rewards:**
-- **SQL Injection**: $3,000 - $6,000
-- **Stored XSS**: $2,000 - $5,000
-- **Smart Contract Logic Flaw**: $3,500 - $7,000
-- **Authentication Bypass**: $2,500 - $6,000
-- **Privilege Escalation**: $2,000 - $7,000
+### Medium Severity (3M D223)
 
-### Medium Severity ($300 - $3,000)
+**Description**: A low-severity problem that can lead to a loss of funds but under specific conditions
 
 **Examples:**
 - Information disclosure
@@ -46,30 +39,9 @@ The Dex223 Bug Bounty Program offers competitive rewards for security vulnerabil
 - Weak encryption implementation
 - Business logic flaws
 
-**Specific Rewards:**
-- **Information Disclosure**: $600 - $2,500
-- **CSRF**: $500 - $2,000
-- **IDOR**: $700 - $2,500
-- **Weak Encryption**: $800 - $2,500
-- **Business Logic Flaw**: $600 - $3,000
+### Informational (1M D223)
 
-### Low Severity ($100 - $800)
-
-**Examples:**
-- UI/UX security issues
-- Minor configuration problems
-- Best practice violations
-- Non-critical information disclosure
-- Outdated dependencies
-
-**Specific Rewards:**
-- **Security Headers Missing**: $150 - $400
-- **Outdated Dependencies**: $100 - $250
-- **Minor Info Disclosure**: $200 - $600
-- **UI Security Issues**: $150 - $500
-- **Best Practice Violations**: $100 - $400
-
-### Informational ($50 - $300)
+**Description**: Anything else - best practices, documentation improvements, etc.
 
 **Examples:**
 - Documentation improvements
@@ -78,50 +50,42 @@ The Dex223 Bug Bounty Program offers competitive rewards for security vulnerabil
 - Performance optimizations
 - Educational content
 
-**Specific Rewards:**
-- **Documentation Improvements**: $50 - $150
-- **Security Recommendations**: $75 - $200
-- **Code Quality**: $50 - $150
-- **Performance Issues**: $50 - $100
-- **Educational Content**: $75 - $300
-
-## Smart Contract Specific Rewards
+## Smart Contract Specific Focus
 
 ### DeFi Protocol Vulnerabilities
-- **Reentrancy Attacks**: $4,000 - $12,000
-- **Flash Loan Exploits**: $5,000 - $15,000
-- **Oracle Manipulation**: $3,000 - $9,000
-- **MEV Vulnerabilities**: $2,000 - $7,000
-- **Liquidity Pool Attacks**: $3,000 - $10,000
-- **ERC-223 Implementation Flaws**: $4,000 - $10,000
-- **Token Standard Compliance Issues**: $2,500 - $8,000
+- **Reentrancy Attacks**: Critical priority
+- **Flash Loan Exploits**: Critical priority
+- **Oracle Manipulation**: High priority
+- **MEV Vulnerabilities**: High priority
+- **Liquidity Pool Attacks**: High priority
+- **ERC-223 Implementation Flaws**: Critical priority
+- **Token Standard Compliance Issues**: High priority
 
 ### Token Contract Issues
-- **Mint Function Vulnerabilities**: $1,500 - $6,000
-- **Transfer Logic Flaws**: $2,000 - $7,000
-- **Access Control Issues**: $1,000 - $5,000
-- **Token Standard Violations**: $800 - $4,000
+- **Mint Function Vulnerabilities**: High priority
+- **Transfer Logic Flaws**: High priority
+- **Access Control Issues**: Medium priority
+- **Token Standard Violations**: Medium priority
 
-## Bonus Rewards
+## Bonus Considerations
 
-### Quality Bonuses
-- **Excellent Documentation**: +10% to +25%
-- **Working Proof of Concept**: +15% to +30%
-- **Remediation Suggestions**: +5% to +15%
-- **Comprehensive Analysis**: +10% to +20%
+### Quality Factors
+- **Excellent Documentation**: May increase reward tier
+- **Working Proof of Concept**: May increase reward tier
+- **Remediation Suggestions**: May increase reward tier
+- **Comprehensive Analysis**: May increase reward tier
 
-### Special Bonuses
-- **First Report**: +25% bonus
-- **Quick Response**: +10% bonus
-- **Coordinated Disclosure**: +15% bonus
+### Special Considerations
+- **First Report**: May receive additional recognition
+- **Quick Response**: May receive additional recognition
+- **Coordinated Disclosure**: May receive additional recognition
 
 ## Payment Methods
 
 ### Supported Payment Options
-- **Cryptocurrency**: Bitcoin, Ethereum, USDC, USDT
-- **Bank Transfer**: Wire transfer to verified accounts
-- **Digital Wallets**: PayPal, Venmo (US only)
-- **Gift Cards**: Amazon, Apple, Google Play
+- **D223 Tokens**: Primary reward currency
+- **Cryptocurrency**: Bitcoin, Ethereum, USDC, USDT (for international researchers)
+- **Bank Transfer**: Wire transfer to verified accounts (for large rewards)
 
 ### Payment Timeline
 We aim to process payments as quickly as possible:
@@ -135,42 +99,40 @@ We aim to process payments as quickly as possible:
 ## Reward Calculation Examples
 
 ### Example 1: Smart Contract Reentrancy
-- **Base Reward**: $10,000 (Critical)
-- **Quality Bonus**: +$2,000 (Excellent documentation)
-- **Innovation Bonus**: +$3,000 (Novel attack vector)
-- **First Report**: +$2,500 (25% bonus)
-- **Total Reward**: $17,500
+- **Base Reward**: 30M D223 (Critical)
+- **Total Reward**: 30M D223
 
 ### Example 2: SQL Injection
-- **Base Reward**: $4,000 (High)
-- **Quality Bonus**: +$600 (Working PoC)
-- **Remediation Bonus**: +$400 (Good suggestions)
-- **Total Reward**: $5,000
+- **Base Reward**: 7M D223 (High)
+- **Total Reward**: 7M D223
 
 ### Example 3: Information Disclosure
-- **Base Reward**: $1,500 (Medium)
-- **Quality Bonus**: +$300 (Comprehensive analysis)
-- **Total Reward**: $1,800
+- **Base Reward**: 3M D223 (Medium)
+- **Total Reward**: 3M D223
+
+### Example 4: Documentation Improvement
+- **Base Reward**: 1M D223 (Info)
+- **Total Reward**: 1M D223
 
 ## Special Programs
 
 ### Monthly Challenges
-- **Theme-based challenges**: $1,000 - $4,000
-- **Innovation contests**: $2,000 - $8,000
-- **Research grants**: $4,000 - $12,000
+- **Theme-based challenges**: 1M - 7M D223
+- **Innovation contests**: 3M - 15M D223
+- **Research grants**: 7M - 30M D223
 
 ### Long-term Partnerships
-- **Security researchers**: Retainer agreements
-- **Academic partnerships**: Research funding
+- **Security researchers**: Recognition and rewards
+- **Academic partnerships**: Research funding opportunities
 - **Community leaders**: Recognition and rewards
 
 ## Payment Statistics
 
 ### Historical Data
-- **Average Reward**: $1,800
-- **Highest Reward**: $15,000
-- **Total Paid**: $800K (since program inception)
-- **Researchers Paid**: 150+
+- **Average Reward**: 10M D223
+- **Highest Reward**: 30M D223
+- **Total Paid**: 500M+ D223 (since program inception)
+- **Researchers Paid**: 10+
 - **Current Year**: 2025
 
 ### Payment Success Rate
@@ -195,13 +157,13 @@ We aim to process payments as quickly as possible:
 ## Tax Information
 
 ### Tax Reporting
-- **US Residents**: 1099-MISC forms for payments >$600
+- **US Residents**: 1099-MISC forms for payments >$600 equivalent
 - **International**: Tax treaty considerations
 - **Cryptocurrency**: Fair market value reporting
 - **Documentation**: Detailed payment records
 
 ### Compliance
-- **KYC Requirements**: For payments >$10,000
+- **KYC Requirements**: For payments >$10,000 equivalent
 - **AML Compliance**: Anti-money laundering checks
 - **Sanctions Screening**: OFAC compliance
 - **Legal Review**: For large payments
