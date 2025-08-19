@@ -23,7 +23,7 @@ The Dex223 Bug Bounty Program is designed to identify and fix security vulnerabi
 ### Allowed Activities
 - **Smart Contract Testing**: Static analysis, fuzzing, formal verification
 - **Web Application Testing**: OWASP Top 10 vulnerabilities, API testing
-- **Mobile App Testing**: Reverse engineering, API endpoint testing
+- **API Endpoint Testing**: All public and authenticated APIs including Fiat on/off-ramp integration
 - **Infrastructure Testing**: Cloud misconfigurations, deployment pipeline analysis
 - **Social Engineering**: Phishing simulations (with prior approval)
 
@@ -40,6 +40,8 @@ The Dex223 Bug Bounty Program is designed to identify and fix security vulnerabi
 - **Testnets**: Full testing encouraged for smart contracts
 - **Staging Environment**: Available for comprehensive testing
 - **Local Development**: Recommended for initial research
+- **Test App**: https://test-app.dex223.io
+- **Swap Interface**: https://test-app.dex223.io/en/swap
 
 ## Submission Requirements
 
@@ -69,17 +71,18 @@ All submissions should include:
 We aim to respond to all reports as quickly as possible, typically:
 - **Critical Issues**: Within 24-48 hours
 - **High Severity**: Within 3-5 business days
-- **Medium/Low Severity**: Within 1-2 weeks
+- **Medium Severity**: Within 1-2 weeks
+- **Info**: Within 1-2 weeks
 
 ### Resolution Timeline
 Resolution times may vary based on complexity and team availability:
 - **Critical Issues**: As soon as possible, typically 1-2 weeks
 - **High Severity**: 2-4 weeks
 - **Medium Severity**: 4-8 weeks
-- **Low Severity**: 6-12 weeks
+- **Info**: 6-12 weeks
 
 ### Communication
-- Status updates via email when possible
+- Status updates via GitHub issue comments
 - Public disclosure coordination
 - Researcher acknowledgment in security advisories
 
@@ -92,10 +95,17 @@ Rewards are determined based on:
 - **Scope**: Number of affected systems
 - **Novelty**: Uniqueness of the vulnerability
 
+### Reward Tiers
+Rewards are paid in D223 tokens:
+- **Critical**: 30M D223 - A vulnerability that can completely break the contracts workflow
+- **High**: 7M D223 - A bug report that indicates a high severity problem but can't impact the whole platform
+- **Medium**: 3M D223 - A low-severity problem that can lead to a loss of funds but under specific conditions
+- **Info**: 1M D223 - Anything else - best practices, documentation improvements, etc.
+
 ### Bonus Factors
-- **First Report**: First to report a specific vulnerability
-- **Quality**: Comprehensive and well-documented reports
-- **Innovation**: Novel attack vectors or techniques
+- **First Report**: May receive additional recognition
+- **Quality**: Comprehensive and well-documented reports may increase reward tier
+- **Innovation**: Novel attack vectors or techniques may increase reward tier
 - **Responsibility**: Following disclosure guidelines
 
 ### Disqualification
@@ -162,9 +172,10 @@ Reports may be disqualified for:
 - **Emergency**: Telegram security channel
 - **Telegram**: [Dex223 Security Channel](https://t.me/Dex223_defi)
 - **Discord**: [Dex223 Community](https://discord.gg/t5bdeGC5Jk)
+- **GitHub Issues**: [https://github.com/rroland10/dex223-bug-bounty/issues](https://github.com/rroland10/dex223-bug-bounty/issues)
 
 ### Communication Channels
-- **Primary**: contact@dex223.io
+- **Primary**: GitHub Issues for all reports and questions
 - **Updates**: GitHub Security Advisories
 - **Community**: Telegram and Discord servers
 - **Public**: Security blog and social media
