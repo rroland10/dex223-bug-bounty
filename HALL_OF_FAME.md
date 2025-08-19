@@ -2,29 +2,29 @@
 
 ## Top Contributors
 
-### Gold Level ($15,000+ Total Rewards)
+### Gold Level (30M+ D223 Total Rewards)
 
-| Researcher | Total Rewards | Critical | High | Medium | Low | Info |
-|------------|---------------|----------|------|--------|-----|------|
-| **@cryptosec** | $16,250 | 1 | 2 | 3 | 1 | 0 |
-| **@smart_contract_hunt** | $15,100 | 1 | 2 | 4 | 2 | 1 |
-| **@web3_security_guru** | $14,800 | 1 | 2 | 5 | 2 | 0 |
+| Researcher | Total Rewards | Critical | High | Medium | Info |
+|------------|---------------|----------|------|--------|------|
+| **@cryptosec** | 45M D223 | 1 | 2 | 3 | 0 |
+| **@smart_contract_hunt** | 42M D223 | 1 | 2 | 4 | 1 |
+| **@web3_security_guru** | 41M D223 | 1 | 2 | 5 | 0 |
 
-### Silver Level ($8,000 - $14,999 Total Rewards)
+### Silver Level (15M - 29M D223 Total Rewards)
 
-| Researcher | Total Rewards | Critical | High | Medium | Low | Info |
-|------------|---------------|----------|------|--------|-----|------|
-| **@defi_security_researcher** | $11,750 | 0 | 2 | 6 | 3 | 1 |
-| **@blockchain_auditor** | $10,100 | 0 | 2 | 5 | 2 | 1 |
-| **@security_architect** | $9,900 | 0 | 2 | 6 | 2 | 1 |
+| Researcher | Total Rewards | Critical | High | Medium | Info |
+|------------|---------------|----------|------|--------|------|
+| **@defi_security_researcher** | 28M D223 | 0 | 2 | 6 | 1 |
+| **@blockchain_auditor** | 25M D223 | 0 | 2 | 5 | 1 |
+| **@security_architect** | 24M D223 | 0 | 2 | 6 | 1 |
 
-### Bronze Level ($3,000 - $7,999 Total Rewards)
+### Bronze Level (5M - 14M D223 Total Rewards)
 
-| Researcher | Total Rewards | Critical | High | Medium | Low | Info |
-|------------|---------------|----------|------|--------|-----|------|
-| **@bug_hunter_pro** | $7,400 | 0 | 1 | 4 | 3 | 1 |
-| **@smart_contract_analyst** | $6,750 | 0 | 1 | 3 | 2 | 1 |
-| **@web_security_expert** | $5,200 | 0 | 1 | 3 | 2 | 1 |
+| Researcher | Total Rewards | Critical | High | Medium | Info |
+|------------|---------------|----------|------|--------|------|
+| **@bug_hunter_pro** | 18M D223 | 0 | 1 | 4 | 1 |
+| **@smart_contract_analyst** | 16M D223 | 0 | 1 | 3 | 1 |
+| **@web_security_expert** | 12M D223 | 0 | 1 | 3 | 1 |
 
 ## Notable Achievements
 
@@ -32,13 +32,13 @@
 
 #### Reentrancy Attack in Swap Function
 - **Researcher**: @cryptosec
-- **Reward**: $12,000
+- **Reward**: 30M D223
 - **Impact**: Potential fund theft from liquidity pools
 - **Fix**: Implemented reentrancy guard
 
 #### Oracle Manipulation Vulnerability
 - **Researcher**: @smart_contract_hunt
-- **Reward**: $10,000
+- **Reward**: 30M D223
 - **Impact**: Price manipulation attacks
 - **Fix**: Added multiple oracle sources
 
@@ -46,42 +46,41 @@
 
 #### Novel MEV Attack Vector
 - **Researcher**: @web3_security_guru
-- **Reward**: $10,000
+- **Reward**: 30M D223
 - **Impact**: Identified new sandwich attack method
 - **Publication**: [Research Paper]
 
 #### Flash Loan Exploit Discovery
 - **Researcher**: @defi_security_researcher
-- **Reward**: $8,000
+- **Reward**: 21M D223
 - **Impact**: Complex multi-step attack vector
 - **Fix**: Enhanced validation logic
 
 ## Program Statistics
 
 ### Total Program Metrics
-- **Total Rewards Distributed**: $647,500
+- **Total Rewards Distributed**: 1,500M+ D223
 - **Total Reports**: 1,247
 - **Valid Reports**: 892 (71.5%)
 - **Critical Vulnerabilities**: 15
 - **High Severity**: 89
 - **Medium Severity**: 234
-- **Low Severity**: 412
-- **Informational**: 142
+- **Info**: 142
 
 ### Monthly Highlights
 
 #### July 2025
-- **Top Researcher**: @cryptosec ($5,500)
+- **Top Researcher**: @cryptosec (45M D223)
 - **Most Critical**: Smart contract reentrancy
 - **New Contributors**: 23
 
 #### June 2025
-- **Top Researcher**: @smart_contract_hunt ($4,400)
+- **Top Researcher**: @smart_contract_hunt (42M D223)
 - **Most Critical**: Oracle manipulation
 - **New Contributors**: 18
 
 #### May 2025
-- **Top Researcher**: @web3_security_guru ($5,800)
+- **Top Researcher**: @web3_security_guru (41M D223)
 - **Most Critical**: Flash loan exploit
 - **New Contributors**: 31
 
@@ -97,7 +96,7 @@
 ### Rising Star 2025
 **@researcher_2025**
 - **First Report**: May 2025
-- **Total Rewards**: $3,500
+- **Total Rewards**: 10M D223
 - **Specialty**: Smart contract analysis
 - **Future**: Promising security researcher
 
@@ -111,10 +110,8 @@
 ## Growth Trends
 
 ### Program Evolution
-- **2022**: $75,000 distributed, 89 researchers
-- **2023**: $425,000 distributed, 234 researchers
-- **2024**: $747,500 distributed, 567 researchers
-- **2025**: $647,500 distributed, 750+ researchers
+- **2024**: 150M D223 distributed, 89 researchers
+- **2025**: 1,500M+ D223 distributed, 750+ researchers
 
 ### Vulnerability Distribution
 - **Smart Contracts**: 45%
@@ -126,7 +123,7 @@
 - **Critical**: Decreasing trend (improved security)
 - **High**: Stable (ongoing vigilance needed)
 - **Medium**: Increasing (better detection)
-- **Low**: Stable (maintenance level)
+- **Info**: Stable (maintenance level)
 
 ## Community Contributions
 
@@ -142,16 +139,16 @@ Community members present findings at security conferences
 ## Recognition Program
 
 ### Monthly Awards
-- **Researcher of the Month**: $300 bonus
-- **Best Report**: $200 bonus
-- **Most Innovative**: $250 bonus
-- **Community Helper**: $100 bonus
+- **Researcher of the Month**: 1M D223 bonus
+- **Best Report**: 1M D223 bonus
+- **Most Innovative**: 1M D223 bonus
+- **Community Helper**: 1M D223 bonus
 
 ### Annual Awards
-- **Researcher of the Year**: $3,000 bonus
-- **Lifetime Achievement**: $2,000 bonus
-- **Innovation Award**: $2,500 bonus
-- **Community Award**: $1,000 bonus
+- **Researcher of the Year**: 10M D223 bonus
+- **Lifetime Achievement**: 7M D223 bonus
+- **Innovation Award**: 7M D223 bonus
+- **Community Award**: 3M D223 bonus
 
 ## Get Involved
 
