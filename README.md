@@ -91,12 +91,10 @@ Dex223 is a decentralized exchange that addresses the critical security issues o
 - [Rewards Structure](REWARDS.md)
 - [Security Policy](SECURITY.md)
 - [Testing Guide](TESTING_GUIDE.md)
-- [Hall of Fame](HALL_OF_FAME.md)
+
 - [FAQ](FAQ.md)
 
-## Hall of Fame
 
-Check out our [Hall of Fame](HALL_OF_FAME.md) to see researchers who have contributed to our security!
 
 ## Contact & Community
 
