@@ -12,12 +12,11 @@ Anyone can participate except:
 - Anyone involved in developing the reported vulnerability
 
 ### How much can I earn?
-Rewards range from $50 to $15,000 depending on:
-- **Critical**: $5,000 - $15,000
-- **High**: $2,000 - $8,000
-- **Medium**: $300 - $3,000
-- **Low**: $100 - $800
-- **Info**: $50 - $300
+Rewards are paid in D223 tokens:
+- **Critical**: 30M D223 - A vulnerability that can completely break the contracts workflow
+- **High**: 7M D223 - A bug report that indicates a high severity problem but can't impact the whole platform
+- **Medium**: 3M D223 - A low-severity problem that can lead to a loss of funds but under specific conditions
+- **Info**: 1M D223 - Anything else - best practices, documentation improvements, etc.
 
 *Updated: July 2025*
 
@@ -25,9 +24,10 @@ Rewards range from $50 to $15,000 depending on:
 
 ### What's in scope?
 - **Smart Contracts**: All Dex223 contracts on Ethereum mainnet and testnets
-- **Web Application**: Frontend and backend services
-- **API Endpoints**: All public and authenticated APIs
-- **Mobile Applications**: iOS and Android apps
+- **Web Application**: Frontend and backend services at https://test-app.dex223.io
+- **API Endpoints**: All public and authenticated APIs including Fiat on/off-ramp integration
+- **Swap Interface**: https://test-app.dex223.io/en/swap
+- **Test Environment**: https://test-app.dex223.io
 - **Infrastructure**: Cloud services and deployment pipelines
 
 ### What's out of scope?
@@ -43,33 +43,39 @@ Limited testing is allowed on production systems, but we encourage using our sta
 ## Payment Questions
 
 ### How do I get paid?
-We support multiple payment methods:
-- **Cryptocurrency**: Bitcoin, Ethereum, USDC, USDT, D223
-- **Digital Wallets**: PayPal (US only)
-- **Gift Cards**: Amazon, Apple, Google Play
+We pay rewards in **D223 tokens only**:
+- **Primary**: D223 tokens (our native cryptocurrency)
+- **Distribution**: Tokens are sent to your provided wallet address
+- **Verification**: We verify your wallet address before payment
 
 ### When do I get paid?
 We aim to process payments as quickly as possible:
-- **Critical Issues**: Within 2-4 weeks of resolution
-- **High Severity**: Within 4-8 weeks of resolution
-- **Medium Severity**: Within 6-12 weeks of resolution
-- **Low/Info**: Within 8-16 weeks of resolution
+- **Critical Issues**: Within 1-2 weeks of resolution
+- **High Severity**: Within 2-4 weeks of resolution
+- **Medium Severity**: Within 4-8 weeks of resolution
+- **Info**: Within 6-12 weeks of resolution
 
 *Note: Payment times may vary based on team availability and complexity*
 
 ### Do I need to pay taxes?
-Yes, you're responsible for reporting and paying taxes on your rewards. We provide 1099-MISC forms for US residents receiving more than $600.
+Yes, you're responsible for reporting and paying taxes on your rewards. We provide 1099-MISC forms for US residents receiving more than $600 equivalent value.
 
 ## Reporting Questions
 
 ### How do I submit a report?
-1. Go to [https://github.com/rroland10/dex223-bug-bounty/issues](https://github.com/rroland10/dex223-bug-bounty/issues)
-2. Click "New Issue"
-3. Describe the vulnerability and include any evidence
-4. Submit the issue
+**It's super simple!**
+
+1. **Go to**: [https://github.com/rroland10/dex223-bug-bounty/issues](https://github.com/rroland10/dex223-bug-bounty/issues)
+2. **Click**: "New Issue"
+3. **Choose**: "Bug Report" template
+4. **Fill in**: What you found, where it is, how to reproduce it
+5. **Submit**: That's it!
+
+**No complex forms, no email templates, no PGP keys - just a simple GitHub issue!**
 
 ### What should I include in my report?
 - Clear description of the vulnerability
+- Where it's located (which part of the system)
 - How to reproduce the issue
 - Any evidence (screenshots, code, videos)
 - Your contact information for rewards
@@ -78,7 +84,8 @@ Yes, you're responsible for reporting and paying taxes on your rewards. We provi
 We aim to respond to all reports as quickly as possible:
 - **Critical Issues**: Within 1-3 days
 - **High Severity**: Within 3-7 days
-- **Medium/Low Severity**: Within 1-2 weeks
+- **Medium Severity**: Within 1-2 weeks
+- **Info**: Within 1-2 weeks
 
 *Note: Response times may vary based on team availability*
 
@@ -89,7 +96,7 @@ Yes, as long as you follow our program rules and scope. We provide safe harbor f
 
 ### What if I find a critical vulnerability?
 1. **Don't exploit it further** beyond proof of concept
-2. **Report it immediately** via email
+2. **Report it immediately** via GitHub issue
 3. **Don't publicly disclose** until we coordinate
 4. **Follow our responsible disclosure timeline**
 
@@ -128,11 +135,11 @@ Yes! Join our telegram security channel for:
 Yes! We maintain a [Hall of Fame](HALL_OF_FAME.md) and publicly acknowledge researchers in security advisories. You can choose to remain anonymous if preferred.
 
 ### Are there special rewards?
-Yes! We offer bonus rewards for:
-- **Excellent documentation**: +10% to +25% bonus
-- **Working proof of concept**: +15% to +30% bonus
-- **Novel attack vectors**: +20% to +30% bonus
-- **First report**: +25% bonus
+Yes! We offer bonus considerations for:
+- **Excellent documentation**: May increase reward tier
+- **Working proof of concept**: May increase reward tier
+- **Novel attack vectors**: May increase reward tier
+- **First report**: May receive additional recognition
 
 ### Can I win monthly/annual awards?
 Yes! We have recognition programs:
@@ -168,7 +175,7 @@ We publish:
 ## Support Questions
 
 ### How can I get help?
-- **Email**: contact@dex223.io
+- **GitHub Issues**: [https://github.com/rroland10/dex223-bug-bounty/issues](https://github.com/rroland10/dex223-bug-bounty/issues)
 - **Telegram**: [Dex223 Security Channel](https://t.me/Dex223_defi)
 - **Discord**: [Dex223 Community](https://discord.gg/t5bdeGC5Jk)
 - **GitHub**: [EthereumCommonwealth](https://github.com/EthereumCommonwealth)
@@ -211,6 +218,6 @@ For urgent issues:
 
 ---
 
-**Still have questions?** Open a GitHub issue or join our Telegram/Discord community!
+**Still have questions?** Open a [GitHub issue](https://github.com/rroland10/dex223-bug-bounty/issues) or join our Telegram/Discord community!
 
 *Last Updated: July 2025* 
