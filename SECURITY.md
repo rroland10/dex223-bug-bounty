@@ -16,7 +16,7 @@ We aim to address vulnerabilities as quickly as possible:
 
 ### Security Contact
 
-- **Email**: contact@dex223.io
+- **Primary**: [GitHub Issues](https://github.com/rroland10/dex223-bug-bounty/issues)
 - **Telegram**: [Dex223 Security Channel](https://t.me/Dex223_defi)
 - **Discord**: [Dex223 Community](https://discord.gg/t5bdeGC5Jk)
 - **GitHub**: [EthereumCommonwealth](https://github.com/EthereumCommonwealth)
@@ -24,11 +24,15 @@ We aim to address vulnerabilities as quickly as possible:
 
 ### Reporting Guidelines
 
-1. **Open a GitHub issue** at [https://github.com/rroland10/dex223-bug-bounty/issues](https://github.com/rroland10/dex223-bug-bounty/issues)
-2. **Describe the problem** clearly
-3. **Include evidence** (screenshots, code, etc.) when possible
-4. **Allow reasonable time** for fixes before public disclosure
-5. **Coordinate disclosure** for critical vulnerabilities
+**It's super simple!**
+
+1. **Go to**: [https://github.com/rroland10/dex223-bug-bounty/issues](https://github.com/rroland10/dex223-bug-bounty/issues)
+2. **Click**: "New Issue"
+3. **Choose**: "Bug Report" template
+4. **Fill in**: What you found, where it is, how to reproduce it
+5. **Submit**: That's it!
+
+**No complex forms, no email templates, no PGP keys - just a simple GitHub issue!**
 
 ### What Not to Do
 
@@ -42,9 +46,57 @@ We aim to address vulnerabilities as quickly as possible:
 
 - **Response** to all reports when possible
 - **Fair assessment** of vulnerability severity
-- **Appropriate rewards** for valid findings
+- **Appropriate rewards** in D223 tokens for valid findings
 - **Public acknowledgment** of researchers
 - **No legal action** for good-faith testing
+
+## Reward Structure
+
+### D223 Token Rewards
+We reward security researchers with our native D223 tokens:
+
+- **Critical**: 30M D223 - A vulnerability that can completely break the contracts workflow
+- **High**: 7M D223 - A bug report that indicates a high severity problem but can't impact the whole platform
+- **Medium**: 3M D223 - A low-severity problem that can lead to a loss of funds but under specific conditions
+- **Info**: 1M D223 - Anything else - best practices, documentation improvements, etc.
+
+### Payment Process
+- **Rewards paid in D223 tokens only**
+- **Payment timeline**: 1-12 weeks depending on severity
+- **Wallet verification** required before payment
+- **Tax documentation** provided for compliance
+
+## Security Scope
+
+### In Scope
+- **Smart Contracts**: All Dex223 contracts on Ethereum mainnet and testnets
+- **Web Application**: Frontend and backend services at https://test-app.dex223.io
+- **API Endpoints**: All public and authenticated APIs including Fiat on/off-ramp integration
+- **Swap Interface**: https://test-app.dex223.io/en/swap
+- **Test Environment**: https://test-app.dex223.io
+- **Infrastructure**: Cloud services and deployment pipelines
+
+### Out of Scope
+- Social engineering attacks (without permission)
+- Physical security assessments
+- Third-party services not owned by Dex223
+- Known vulnerabilities in dependencies
+- Denial of service attacks
+
+## Testing Guidelines
+
+### Safe Testing Practices
+- **Use test environment** when possible
+- **Follow responsible disclosure** timeline
+- **Document findings** thoroughly
+- **Coordinate critical issues** immediately
+- **Respect rate limits** and testing boundaries
+
+### Test Environment Access
+- **Test App**: https://test-app.dex223.io
+- **Swap Interface**: https://test-app.dex223.io/en/swap
+- **Test Tokens**: Use "Get free tokens" button on test pages
+- **Sepolia ETH**: Available through Chainlink and Alchemy faucets
 
 ---
 
