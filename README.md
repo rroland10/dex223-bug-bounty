@@ -4,7 +4,7 @@
 [![Security](https://img.shields.io/badge/Security-Responsible%20Disclosure-blue)](https://github.com/dex223/bug-bounty/blob/main/SECURITY.md)
 [![Rewards](https://img.shields.io/badge/Rewards-Up%20to%2030M%20D223-orange)](https://github.com/dex223/bug-bounty/blob/main/REWARDS.md)
 [![Status](https://img.shields.io/badge/Status-Active%20Program-success)](https://github.com/dex223/bug-bounty)
-[![Community](https://img.shields.io/badge/Community-500%2B%20Researchers-blueviolet)](https://t.me/Dex223_defi)
+[![Community](https://img.shields.io/badge/Community-10%2B%20Security%20Researchers-blueviolet)](https://t.me/Dex223_defi)
 
 ## Overview
 
@@ -17,17 +17,15 @@ Dex223 is a decentralized exchange that addresses the critical security issues o
 - **Encapsulated Margin Trading**: Innovative trading features
 - **Fiat Onramp Integration**: On/Off-ramp
 
-
-
 ## Table of Contents
 
-- [Overview](#-overview)
-- [Quick Start](#-quick-start)
-- [Program Scope](#-program-scope)
-- [Reward Tiers](#-reward-tiers)
-- [Important Links](#-important-links)
-
-- [Contact & Community](#-contact--community)
+- [Overview](#overview)
+- [Quick Start](#quick-start)
+- [How to Submit a Report](#how-to-submit-a-report)
+- [Program Scope](#program-scope)
+- [Reward Tiers](#reward-tiers)
+- [Important Links](#important-links)
+- [Contact & Community](#contact--community)
 
 ## Quick Start
 
@@ -47,6 +45,8 @@ Dex223 is a decentralized exchange that addresses the critical security issues o
 5. **Submit**: That's it!
 
 **No complex forms, no email templates, no PGP keys - just a simple GitHub issue!**
+
+Our team members will review these public reports and respond in the comments thread.
 
 ## Program Scope
 
@@ -91,16 +91,15 @@ Dex223 is a decentralized exchange that addresses the critical security issues o
 - [Rewards Structure](REWARDS.md)
 - [Security Policy](SECURITY.md)
 - [Testing Guide](TESTING_GUIDE.md)
-
+- [Bug Report Template](REPORT_TEMPLATE.md)
 - [FAQ](FAQ.md)
-
-
+- [Code of Conduct](CODE_OF_CONDUCT.md)
 
 ## Contact & Community
 
 ### Security Contact
-- **Email**: contact@dex223.io
-- **Telegram**: [Dex223 Security Channel](https://t.me/Dex223_defi)
+- **Primary**: [GitHub Issues](https://github.com/rroland10/dex223-bug-bounty/issues)
+- **Telegram**: [Dex223 Channel](https://t.me/Dex223_defi)
 - **Discord**: [Dex223 Community](https://discord.gg/t5bdeGC5Jk)
 
 ### Social Media & Resources
