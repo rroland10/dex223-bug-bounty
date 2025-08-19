@@ -57,8 +57,7 @@ We aim to process payments as quickly as possible:
 
 *Note: Payment times may vary based on team availability and complexity*
 
-### Do I need to pay taxes?
-Yes, you're responsible for reporting and paying taxes on your rewards. We provide 1099-MISC forms for US residents receiving more than $600 equivalent value.
+
 
 ## Reporting Questions
 

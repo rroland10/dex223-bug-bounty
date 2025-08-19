@@ -154,19 +154,7 @@ We aim to process payments as quickly as possible:
 - **Scope Dispute**: Valid in-scope vulnerability
 - **Quality Recognition**: Exceptional report quality
 
-## Tax Information
 
-### Tax Reporting
-- **US Residents**: 1099-MISC forms for payments >$600 equivalent
-- **International**: Tax treaty considerations
-- **Cryptocurrency**: Fair market value reporting
-- **Documentation**: Detailed payment records
-
-### Compliance
-- **KYC Requirements**: For payments >$10,000 equivalent
-- **AML Compliance**: Anti-money laundering checks
-- **Sanctions Screening**: OFAC compliance
-- **Legal Review**: For large payments
 
 ---
 

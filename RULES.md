@@ -156,7 +156,7 @@ Reports may be disqualified for:
 - Safe harbor for authorized testing within defined scope
 - Protection against legal retaliation for good-faith research
 - Clear scope definition and testing boundaries
-- Compliance with applicable laws and regulations
+
 - Intellectual property protection for researchers
 
 ### Intellectual Property

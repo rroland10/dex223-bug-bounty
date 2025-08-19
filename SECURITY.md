@@ -64,7 +64,7 @@ We reward security researchers with our native D223 tokens:
 - **Rewards paid in D223 tokens only**
 - **Payment timeline**: 1-12 weeks depending on severity
 - **Wallet verification** required before payment
-- **Tax documentation** provided for compliance
+
 
 ## Security Scope
 
