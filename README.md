@@ -26,7 +26,7 @@ Dex223 is a decentralized exchange that addresses the critical security issues o
 - [Program Scope](#-program-scope)
 - [Reward Tiers](#-reward-tiers)
 - [Important Links](#-important-links)
-- [Hall of Fame](#-hall-of-fame)
+
 - [Contact & Community](#-contact--community)
 
 ## Quick Start

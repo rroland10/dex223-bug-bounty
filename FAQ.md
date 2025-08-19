@@ -131,7 +131,7 @@ Yes! Join our telegram channel for:
 ## Recognition Questions
 
 ### Will I be publicly acknowledged?
-Yes! We maintain a [Hall of Fame](HALL_OF_FAME.md) and publicly acknowledge researchers in security advisories. You can choose to remain anonymous if preferred.
+Yes! We publicly acknowledge researchers in security advisories. You can choose to remain anonymous if preferred.
 
 ### Are there special rewards?
 Yes! We offer bonus considerations for:
