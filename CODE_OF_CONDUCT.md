@@ -56,7 +56,7 @@ Dex223 is committed to fostering an inclusive, respectful, and collaborative env
 If you experience or witness unacceptable behavior:
 
 1. **Immediate**: Open a [GitHub issue](https://github.com/rroland10/dex223-bug-bounty/issues) with "CONDUCT VIOLATION" in the title
-2. **Emergency**: Use our Telegram security channel for urgent issues
+2. **Emergency**: Use our Telegram channel for urgent issues
 3. **Anonymous**: Submit anonymous reports through our feedback form
 4. **Escalation**: Contact community moderators if needed
 

@@ -250,7 +250,7 @@ def scan_for_xss(url):
 - [DeFi Security](https://defisafety.com/)
 
 ### Community
-- [Telegram Security Channel](https://t.me/Dex223_defi)
+- [Telegram Channel](https://t.me/Dex223_defi)
 - [Discord Community](https://discord.gg/t5bdeGC5Jk)
 - [GitHub Repository](https://github.com/EthereumCommonwealth)
 - [Twitter](https://x.com/Dex_223)

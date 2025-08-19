@@ -20,7 +20,7 @@ We aim to address vulnerabilities as quickly as possible:
 - **Telegram**: [Dex223 Security Channel](https://t.me/Dex223_defi)
 - **Discord**: [Dex223 Community](https://discord.gg/t5bdeGC5Jk)
 - **GitHub**: [EthereumCommonwealth](https://github.com/EthereumCommonwealth)
-- **Emergency**: Telegram security channel
+- **Emergency**: Telegram channel
 
 ### Reporting Guidelines
 

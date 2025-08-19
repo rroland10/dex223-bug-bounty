@@ -122,7 +122,7 @@ We recommend:
 - **Infrastructure**: Cloud security tools
 
 ### Can I get help with testing?
-Yes! Join our telegram security channel for:
+Yes! Join our telegram channel for:
 - Technical support
 - Tool recommendations
 - Collaboration opportunities
@@ -205,7 +205,7 @@ Absolutely! We welcome feedback on:
 ### What if my report is urgent?
 For urgent issues:
 - Open a GitHub issue with "URGENT" in the title
-- Post in Telegram security channel (for critical issues only)
+- Post in Telegram channel (for critical issues only)
 - We'll respond as quickly as possible
 
 ### What if I accidentally cause damage?

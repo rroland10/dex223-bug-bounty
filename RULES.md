@@ -63,7 +63,7 @@ All submissions should include:
 ### Submission Channels
 - **Primary**: [GitHub Issues](https://github.com/rroland10/dex223-bug-bounty/issues)
 - **Backup**: GitHub Security Advisories
-- **Emergency**: Telegram security channel (for critical issues)
+- **Emergency**: Telegram channel (for critical issues)
 
 ## Response Timeline
 
@@ -169,7 +169,7 @@ Reports may be disqualified for:
 
 ### Contact Information
 - **Security Team**: contact@dex223.io
-- **Emergency**: Telegram security channel
+- **Emergency**: Telegram channel
 - **Telegram**: [Dex223 Security Channel](https://t.me/Dex223_defi)
 - **Discord**: [Dex223 Community](https://discord.gg/t5bdeGC5Jk)
 - **GitHub Issues**: [https://github.com/rroland10/dex223-bug-bounty/issues](https://github.com/rroland10/dex223-bug-bounty/issues)
