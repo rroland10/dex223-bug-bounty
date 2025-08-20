@@ -35,10 +35,13 @@ npx hardhat deploy --network sepolia
 ## Testing Targets
 
 ### Smart Contracts
+- **Repository**: [Dex223-contracts](https://github.com/EthereumCommonwealth/Dex223-contracts/tree/253367297d9093db21661b297cdbb104d8579e35)
 - **Main Contract**: `0x...` (Sepolia)
 - **Router**: `0x...` (Sepolia)
 - **Factory**: `0x...` (Sepolia)
 - **ERC-223 Implementation**: Token contracts with enhanced security
+
+**Note**: MarginModule and PriceOracle are excluded from testing scope (work-in-progress modules)
 
 ### ERC-223 Specific Testing
 - **Token Transfer Security**: Test ERC-223 vs ERC-20 transfer mechanisms
@@ -118,6 +121,7 @@ python scripts/api_tests.py
 ## Testing Checklist
 
 ### Smart Contracts
+- [ ] **Repository Access**: Verify access to [Dex223-contracts](https://github.com/EthereumCommonwealth/Dex223-contracts/tree/253367297d9093db21661b297cdbb104d8579e35)
 - [ ] **Reentrancy**: Check for external calls before state changes
 - [ ] **Integer Overflow**: Verify SafeMath usage
 - [ ] **Access Control**: Review modifier implementations
@@ -128,6 +132,7 @@ python scripts/api_tests.py
 - [ ] **ERC-223 Implementation**: Verify token standard compliance
 - [ ] **Backward Compatibility**: Test ERC-20 token interactions
 - [ ] **Transfer Security**: Validate loss prevention mechanisms
+- [ ] **Scope Compliance**: Ensure testing excludes MarginModule and PriceOracle
 
 ### Web Application
 - [ ] **Authentication**: Test login/logout flows

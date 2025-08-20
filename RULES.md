@@ -21,7 +21,7 @@ The Dex223 Bug Bounty Program is designed to identify and fix security vulnerabi
 ## Testing Guidelines
 
 ### Allowed Activities
-- **Smart Contract Testing**: Static analysis, fuzzing, formal verification
+- **Smart Contract Testing**: Static analysis, fuzzing, formal verification of [Dex223-contracts](https://github.com/EthereumCommonwealth/Dex223-contracts/tree/253367297d9093db21661b297cdbb104d8579e35)
 - **Web Application Testing**: OWASP Top 10 vulnerabilities, API testing
 - **API Endpoint Testing**: All public and authenticated APIs including Fiat on/off-ramp integration
 - **Infrastructure Testing**: Cloud misconfigurations, deployment pipeline analysis
@@ -34,6 +34,7 @@ The Dex223 Bug Bounty Program is designed to identify and fix security vulnerabi
 - **Physical Security**: Attempts to gain physical access to facilities
 - **Social Engineering**: Without explicit written permission
 - **Third-Party Services**: Testing services not owned by Dex223
+- **Excluded Modules**: Testing of MarginModule and PriceOracle (see scope documentation)
 
 ### Testing Environment
 - **Production Systems**: Limited testing allowed with proper safeguards
@@ -115,6 +116,7 @@ Reports may be disqualified for:
 - Duplicate submissions
 - Non-reproducible issues
 - Out-of-scope vulnerabilities
+- Reports of known issues (see scope documentation)
 
 ## Duplicate Handling
 

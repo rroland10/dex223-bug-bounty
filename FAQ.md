@@ -23,7 +23,7 @@ Rewards are paid in D223 tokens:
 ## Scope Questions
 
 ### What's in scope?
-- **Smart Contracts**: All Dex223 contracts on Ethereum mainnet and testnets
+- **Smart Contracts**: [Dex223-contracts repository](https://github.com/EthereumCommonwealth/Dex223-contracts/tree/253367297d9093db21661b297cdbb104d8579e35) on Ethereum mainnet and testnets
 - **Web Application**: Frontend and backend services at https://test-app.dex223.io
 - **API Endpoints**: All public and authenticated APIs including Fiat on/off-ramp integration
 - **Swap Interface**: https://test-app.dex223.io/en/swap
@@ -31,11 +31,15 @@ Rewards are paid in D223 tokens:
 - **Infrastructure**: Cloud services and deployment pipelines
 
 ### What's out of scope?
+- **Excluded Modules**:
+  - **MarginModule**: Work-in-progress module not ready for security testing
+  - **PriceOracle for MarginModule**: Oracle implementation specifically designed for the MarginModule
 - Social engineering attacks (without permission)
 - Physical security assessments
 - Third-party services not owned by Dex223
 - Known vulnerabilities in dependencies
 - Denial of service attacks
+- Known issues documented in scope (pool creation errors, auto-conversion issues)
 
 ### Can I test production systems?
 Limited testing is allowed on production systems, but we encourage using our staging environment and testnets. Always follow responsible disclosure practices and don't cause any damage.

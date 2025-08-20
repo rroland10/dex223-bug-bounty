@@ -50,6 +50,11 @@ Our team members will review these public reports and respond in the comments th
 
 ## Program Scope
 
+### Smart Contract Source Codes
+The bug bounty program covers the following smart contract source codes:
+- **Repository**: [Dex223-contracts](https://github.com/EthereumCommonwealth/Dex223-contracts/tree/253367297d9093db21661b297cdbb104d8579e35)
+- **Focus Areas**: All smart contracts within the defined scope, excluding specific modules listed below
+
 ### In Scope
 - **Smart Contracts**: All Dex223 smart contracts on Ethereum mainnet and testnets
 - **Web Application**: Frontend and backend services at https://test-app.dex223.io
@@ -71,10 +76,20 @@ Our team members will review these public reports and respond in the comments th
 - **Responsible Disclosure**: Coordinated security updates
 
 ### Out of Scope
+- **Excluded Modules**:
+  - **MarginModule**: [Dex223MarginModule.sol](https://github.com/EthereumCommonwealth/Dex223-contracts/blob/253367297d9093db21661b297cdbb104d8579e35/contracts/dex-core/Dex223MarginModule.sol) - Work-in-progress module not ready for security testing
+  - **PriceOracle for MarginModule**: [Dex223Oracle.sol](https://github.com/EthereumCommonwealth/Dex223-contracts/blob/253367297d9093db21661b297cdbb104d8579e35/contracts/dex-core/Dex223Oracle.sol) - Oracle implementation specifically designed for the MarginModule
 - Social engineering attacks
 - Physical security assessments
 - Third-party services not under our control
 - Known vulnerabilities in dependencies
+
+### Known Issues
+The following issues are already known and should not be reported as new vulnerabilities:
+
+1. **Pool Creation Error**: Error in pool creation for a token pair where one token is ERC-20 Original and the other is ERC-223 Original without an existing ERC-20 wrapper.
+
+2. **Auto-conversion Issue**: Auto-conversion of ERC-20 wrapper-tokens to ERC-223 origin in a pair where one token is ERC-20 Origin and the other is ERC-223 Origin does not happen when there is only ERC-20-side liquidity in that pool.
 
 ## Reward Tiers
 

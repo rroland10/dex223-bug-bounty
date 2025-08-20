@@ -156,6 +156,32 @@ If you experience or witness unacceptable behavior:
 - **Cultural Sensitivity**: Respecting different cultural backgrounds
 - **Accessibility**: Making the program accessible to all participants
 
+## Scope
+
+### Smart Contract Source Codes
+The bug bounty program covers the following smart contract source codes:
+- **Repository**: [Dex223-contracts](https://github.com/EthereumCommonwealth/Dex223-contracts/tree/253367297d9093db21661b297cdbb104d8579e35)
+- **Focus Areas**: All smart contracts within the defined scope, excluding specific modules listed below
+
+## Out of Scope
+
+### Excluded Modules
+The following modules are explicitly out of scope for the bug bounty program:
+
+- **MarginModule**: [Dex223MarginModule.sol](https://github.com/EthereumCommonwealth/Dex223-contracts/blob/253367297d9093db21661b297cdbb104d8579e35/contracts/dex-core/Dex223MarginModule.sol)
+  - **Reason**: Work-in-progress module not ready for security testing
+  
+- **PriceOracle for MarginModule**: [Dex223Oracle.sol](https://github.com/EthereumCommonwealth/Dex223-contracts/blob/253367297d9093db21661b297cdbb104d8579e35/contracts/dex-core/Dex223Oracle.sol)
+  - **Reason**: Oracle implementation specifically designed for the MarginModule
+
+## Known Issues
+
+The following issues are already known and should not be reported as new vulnerabilities:
+
+1. **Pool Creation Error**: Error in pool creation for a token pair where one token is ERC-20 Original and the other is ERC-223 Original without an existing ERC-20 wrapper.
+
+2. **Auto-conversion Issue**: Auto-conversion of ERC-20 wrapper-tokens to ERC-223 origin in a pair where one token is ERC-20 Origin and the other is ERC-223 Origin does not happen when there is only ERC-20-side liquidity in that pool.
+
 ---
 
 **Together, we can create a safe, respectful, and productive environment for security research.**
