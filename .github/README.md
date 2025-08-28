@@ -70,6 +70,10 @@ See our [Rewards Structure](../REWARDS.md) for complete details.
 - **Test Environment**: https://test-app.dex223.io
 - **Infrastructure**: Cloud services and deployment pipelines
 
+### Our of scope
+
+- This contracts are out of scope: https://github.com/rroland10/dex223-bug-bounty/blob/main/FAQ.md#whats-out-of-scope
+
 ### Test Environment Access
 - **Test App**: https://test-app.dex223.io
 - **Swap Interface**: https://test-app.dex223.io/en/swap
