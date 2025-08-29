@@ -62,6 +62,11 @@ See our [Rewards Structure](../REWARDS.md) for complete details.
 
 ## Program Scope
 
+### Smart Contract Source Codes
+The bug bounty program covers the following smart contract source codes:
+- **Repository**: [Dex223-contracts](https://github.com/EthereumCommonwealth/Dex223-contracts/tree/253367297d9093db21661b297cdbb104d8579e35)
+- **Focus Areas**: All smart contracts within the defined scope, excluding specific modules listed below
+
 ### In Scope
 - **Smart Contracts**: All Dex223 contracts on Ethereum mainnet and testnets
 - **Web Application**: Frontend and backend services at https://test-app.dex223.io
@@ -70,9 +75,22 @@ See our [Rewards Structure](../REWARDS.md) for complete details.
 - **Test Environment**: https://test-app.dex223.io
 - **Infrastructure**: Cloud services and deployment pipelines
 
-### Our of scope
+### Out of Scope
+- **Excluded Modules**:
+  - **MarginModule**: Work-in-progress module not ready for security testing
+  - **PriceOracle for MarginModule**: Oracle implementation specifically designed for the MarginModule
+- Social engineering attacks (without permission)
+- Physical security assessments
+- Third-party services not owned by Dex223
+- Known vulnerabilities in dependencies
+- Denial of service attacks
 
-- This contracts are out of scope: https://github.com/rroland10/dex223-bug-bounty/blob/main/FAQ.md#whats-out-of-scope
+### Known Issues
+The following issues are already known and should not be reported as new vulnerabilities:
+
+1. **Pool Creation Error**: Error in pool creation for a token pair where one token is ERC-20 Original and the other is ERC-223 Original without an existing ERC-20 wrapper.
+
+2. **Auto-conversion Issue**: Auto-conversion of ERC-20 wrapper-tokens to ERC-223 origin in a pair where one token is ERC-20 Origin and the other is ERC-223 Origin does not happen when there is only ERC-20-side liquidity in that pool.
 
 ### Test Environment Access
 - **Test App**: https://test-app.dex223.io
