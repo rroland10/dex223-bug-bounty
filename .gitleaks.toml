@@ -1,0 +1,49 @@
+# RORO Ecosystem shared gitleaks configuration.
+# Owner: Abena, Chief Information Security Officer.
+# Filed under DEC-0002. Change this file by decision, not in passing.
+#
+# The allowlist below is tuned on the five false positives found in the
+# 2026-09-03 portfolio sweep. Add to it only with a comment saying which
+# file and why the match is not a secret.
+
+title = "RORO Ecosystem gitleaks config"
+
+[extend]
+useDefault = true
+
+[allowlist]
+description = "RORO shared allowlist"
+
+paths = [
+  # Lock files carry base58 and base64 integrity hashes that look like keys.
+  '''(^|/)package-lock\.json$''',
+  '''(^|/)yarn\.lock$''',
+  '''(^|/)pnpm-lock\.yaml$''',
+  '''(^|/)Cargo\.lock$''',
+  '''(^|/)poetry\.lock$''',
+  '''(^|/)go\.sum$''',
+  # Template files exist to show the shape of a secret, never the value.
+  '''\.tpl$''',
+  '''\.env[^/]*\.example$''',
+  '''\.env[^/]*\.sample$''',
+  '''\.env[^/]*\.template$''',
+  '''(^|/)\.env\.example[^/]*$''',
+]
+
+regexes = [
+  # apple.ts builds a PEM header string at runtime; it holds no key material.
+  '''-----BEGIN PRIVATE KEY-----\\n['"`]?\s*\+''',
+  # docusign.test.ts and similar fixtures use an obvious dummy value.
+  '''(?i)(dummy|fake|example|placeholder|changeme|your[-_]?key[-_]?here|xxxx+)''',
+  # The publicly documented EOSIO development key. Public by design, on every
+  # Antelope tutorial. Not a RORO credential.
+  '''5KQwrPbwdL6PhXujxW37FSSQZ1JiwsST4cqQzDeyXtP79zkvFD3''',
+]
+
+stopwords = [
+  "localhost",
+  "127.0.0.1",
+  "test",
+  "sample",
+  "demo",
+]
