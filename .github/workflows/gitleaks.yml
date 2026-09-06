@@ -2,8 +2,6 @@ name: gitleaks
 
 on:
   pull_request:
-  push:
-    branches: ["**"]
   schedule:
     - cron: "0 3 * * 1"
   workflow_dispatch:
@@ -11,9 +9,17 @@ on:
 permissions:
   contents: read
 
+env:
+  GITLEAKS_VERSION: "8.30.1"
+  GITLEAKS_SHA256: "551f6fc83ea457d62a0d98237cbad105af8d557003051f41f3e7ca7b3f2470eb"
+
 jobs:
-  scan:
-    name: Secret scan
+  # Blocking. Stops a new secret entering the repository.
+  # Scans only the commits this pull request adds, so pre-existing history
+  # does not make every pull request red before it has been triaged.
+  new-commits:
+    name: Secret scan (this PR's commits)
+    if: github.event_name == 'pull_request'
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -21,10 +27,70 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Run gitleaks
-        uses: gitleaks/gitleaks-action@v2
+      - name: Install gitleaks
+        run: |
+          set -euo pipefail
+          url="https://github.com/gitleaks/gitleaks/releases/download/v${GITLEAKS_VERSION}/gitleaks_${GITLEAKS_VERSION}_linux_x64.tar.gz"
+          curl -sSfL --retry 3 -o /tmp/gitleaks.tar.gz "$url"
+          echo "${GITLEAKS_SHA256}  /tmp/gitleaks.tar.gz" | sha256sum -c -
+          tar -xzf /tmp/gitleaks.tar.gz -C /tmp gitleaks
+          sudo install -m 0755 /tmp/gitleaks /usr/local/bin/gitleaks
+
+      # --redact is not optional. A scanner that prints the secret it found
+      # into a CI log has moved the secret, not contained it.
+      - name: Scan
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          GITLEAKS_CONFIG: .gitleaks.toml
-          GITLEAKS_ENABLE_UPLOAD_ARTIFACT: false
-          GITLEAKS_ENABLE_SUMMARY: true
+          BASE: ${{ github.event.pull_request.base.sha }}
+          HEAD: ${{ github.event.pull_request.head.sha }}
+        run: |
+          set -euo pipefail
+          gitleaks detect \
+            --source . \
+            --config .gitleaks.toml \
+            --redact \
+            --no-banner \
+            --log-opts="--no-merges $BASE..$HEAD" \
+            --exit-code 1
+
+  # Non-blocking on purpose, for now. Historical findings across the portfolio
+  # have not been triaged yet, and a red gate nobody can clear is a gate people
+  # learn to ignore. Flip continue-on-error to false once history is clean.
+  history:
+    name: Secret scan (full history, report only)
+    if: github.event_name != 'pull_request'
+    runs-on: ubuntu-latest
+    continue-on-error: true
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Install gitleaks
+        run: |
+          set -euo pipefail
+          url="https://github.com/gitleaks/gitleaks/releases/download/v${GITLEAKS_VERSION}/gitleaks_${GITLEAKS_VERSION}_linux_x64.tar.gz"
+          curl -sSfL --retry 3 -o /tmp/gitleaks.tar.gz "$url"
+          echo "${GITLEAKS_SHA256}  /tmp/gitleaks.tar.gz" | sha256sum -c -
+          tar -xzf /tmp/gitleaks.tar.gz -C /tmp gitleaks
+          sudo install -m 0755 /tmp/gitleaks /usr/local/bin/gitleaks
+
+      - name: Scan
+        run: |
+          gitleaks detect \
+            --source . \
+            --config .gitleaks.toml \
+            --redact \
+            --no-banner \
+            --log-opts="--all" \
+            --report-format sarif \
+            --report-path gitleaks.sarif \
+            --exit-code 1
+
+      - name: Upload report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: gitleaks-history-report
+          path: gitleaks.sarif
+          if-no-files-found: ignore

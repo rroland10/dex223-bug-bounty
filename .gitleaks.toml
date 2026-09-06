@@ -24,9 +24,10 @@ paths = [
   '''(^|/)go\.sum$''',
   # Template files exist to show the shape of a secret, never the value.
   '''\.tpl$''',
-  '''\.env\.example$''',
-  '''\.env\.sample$''',
-  '''(^|/)\.env\.template$''',
+  '''\.env[^/]*\.example$''',
+  '''\.env[^/]*\.sample$''',
+  '''\.env[^/]*\.template$''',
+  '''(^|/)\.env\.example[^/]*$''',
 ]
 
 regexes = [
