@@ -39,7 +39,7 @@ Rewards are paid in D223 tokens:
 - Third-party services not owned by Dex223
 - Known vulnerabilities in dependencies
 - Denial of service attacks
-- Known issues documented in scope (pool creation errors, auto-conversion issues)
+- Known issues documented in scope (pool creation errors, auto-conversion issues, non-standard tokens such as fee-on-transfer)
 
 ### Can I test production systems?
 Limited testing is allowed on production systems, but we encourage using our staging environment and testnets. Always follow responsible disclosure practices and don't cause any damage.
