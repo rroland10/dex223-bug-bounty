@@ -23,7 +23,7 @@ Rewards are paid in D223 tokens:
 ## Scope Questions
 
 ### What's in scope?
-- **Smart Contracts**: [Dex223-contracts repository](https://github.com/EthereumCommonwealth/Dex223-contracts/tree/253367297d9093db21661b297cdbb104d8579e35) on Ethereum mainnet and testnets
+- **Smart Contracts**: [Dex223-contracts repository](https://github.com/EthereumCommonwealth/Dex223-contracts/tree/7d5188424b0c4260c791dd549574e27d5e44d082) on Ethereum mainnet and testnets
 - **Web Application**: Frontend and backend services at https://test-app.dex223.io
 - **API Endpoints**: All public and authenticated APIs including Fiat on/off-ramp integration
 - **Swap Interface**: https://test-app.dex223.io/en/swap
