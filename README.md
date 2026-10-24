@@ -52,8 +52,48 @@ Our team members will review these public reports and respond in the comments th
 
 ### Smart Contract Source Codes
 The bug bounty program covers the following smart contract source codes:
-- **Repository**: [Dex223-contracts](https://github.com/EthereumCommonwealth/Dex223-contracts/tree/253367297d9093db21661b297cdbb104d8579e35)
+- **Repository**: [Dex223-contracts](https://github.com/EthereumCommonwealth/Dex223-contracts/tree/aff94493434cdce1396719740f578227d0690d03)
 - **Focus Areas**: All smart contracts within the defined scope, excluding specific modules listed below
+
+### Deployed Contracts (what to test)
+Reports must reproduce against the contracts deployed at these addresses. Each address links to Etherscan. The core and periphery contracts were deployed on October 7, 2026. Every contract in these tables except the token converter matches commit [`aff9449`](https://github.com/EthereumCommonwealth/Dex223-contracts/tree/aff94493434cdce1396719740f578227d0690d03) byte for byte. You can confirm this with `scripts/check-deployment-hashes.ts` in that repository. The MarginModule and its Oracle were redeployed on October 10, 2026 and also match this commit, but they stay out of scope (see below).
+
+**Ethereum mainnet**
+
+| Contract | Address |
+|---|---|
+| Factory | [`0x899097B427cd04e1BD07FD3445cc90493300C3a5`](https://etherscan.io/address/0x899097B427cd04e1BD07FD3445cc90493300C3a5#code) |
+| Swap router | [`0x14248d524850B0B47B30F4332279330Cad2846a2`](https://etherscan.io/address/0x14248d524850B0B47B30F4332279330Cad2846a2#code) |
+| Position manager | [`0x15E22548C572C8Fdb3AcC600c040D5F2A19855D4`](https://etherscan.io/address/0x15E22548C572C8Fdb3AcC600c040D5F2A19855D4#code) |
+| Quoter | [`0x69ee81C767cA94e71DDc356D433B30f6eBf7b41E`](https://etherscan.io/address/0x69ee81C767cA94e71DDc356D433B30f6eBf7b41E#code) |
+| Core autolisting | [`0x63054Fa5899Bce903E676CC478811bF1fed20E5b`](https://etherscan.io/address/0x63054Fa5899Bce903E676CC478811bF1fed20E5b#code) |
+| Free autolisting | [`0xB442f1362163b168cebAd877067D35Eb8d9176d9`](https://etherscan.io/address/0xB442f1362163b168cebAd877067D35Eb8d9176d9#code) |
+| Token converter (ERC-7417) | [`0xe7E969012557f25bECddB717A3aa2f4789ba9f9a`](https://etherscan.io/address/0xe7E969012557f25bECddB717A3aa2f4789ba9f9a#code) |
+
+The converter is the original ERC-7417 deployment from March 2025; later converter changes in the repository are not deployed.
+
+**Sepolia (used by https://test-app.dex223.io)**
+
+| Contract | Address |
+|---|---|
+| Factory | [`0xf07cc56E969Bc08395E80Da099e44d122bFa42B9`](https://sepolia.etherscan.io/address/0xf07cc56E969Bc08395E80Da099e44d122bFa42B9#code) |
+| Swap router | [`0x322D53bda812099287BB74baA487c069C5F7B2b1`](https://sepolia.etherscan.io/address/0x322D53bda812099287BB74baA487c069C5F7B2b1#code) |
+| Position manager | [`0x1b14B1136BE241565eDa7eB465919C7413a1bb47`](https://sepolia.etherscan.io/address/0x1b14B1136BE241565eDa7eB465919C7413a1bb47#code) |
+| Quoter | [`0x11E200C04681e8348beF96c8C1dcfdECFC2dEc0C`](https://sepolia.etherscan.io/address/0x11E200C04681e8348beF96c8C1dcfdECFC2dEc0C#code) |
+| Core autolisting | [`0xF35AB968Eb874A56244e7df1D569F06aEf327936`](https://sepolia.etherscan.io/address/0xF35AB968Eb874A56244e7df1D569F06aEf327936#code) |
+| Free autolisting | [`0x0F81b549eE7DB363fbbb4358B9004C2AB97C7118`](https://sepolia.etherscan.io/address/0x0F81b549eE7DB363fbbb4358B9004C2AB97C7118#code) |
+| Token converter (ERC-7417) | [`0x5847f5C0E09182d9e75fE8B1617786F62fee0D9F`](https://sepolia.etherscan.io/address/0x5847f5C0E09182d9e75fE8B1617786F62fee0D9F#code) |
+
+### Deprecated Deployments
+These older contracts are still on-chain but no longer used by the Dex223 app. They are out of scope, except for findings that put funds or token approvals they still hold at risk today.
+
+| Contract | Address |
+|---|---|
+| Swap router (v1) | [`0xbeBAB9Ab58f8099fbFEb15E14b663615D19304Fa`](https://etherscan.io/address/0xbeBAB9Ab58f8099fbFEb15E14b663615D19304Fa#code) |
+| Swap router | [`0x09127e22961C61c2b252b23ff97e6D4689AC13A9`](https://etherscan.io/address/0x09127e22961C61c2b252b23ff97e6D4689AC13A9#code) |
+| Swap router | [`0x8702E7647f689D07fdF2827978a19F5fdc662ef8`](https://etherscan.io/address/0x8702E7647f689D07fdF2827978a19F5fdc662ef8#code) |
+| Factory (v1) | [`0x8dae173016f65F61e90631Ee5f28C9E47b1ebc06`](https://etherscan.io/address/0x8dae173016f65F61e90631Ee5f28C9E47b1ebc06#code) |
+| Factory | [`0xc0c5511f23a268f041Ad10466a17b719942a8F1f`](https://etherscan.io/address/0xc0c5511f23a268f041Ad10466a17b719942a8F1f#code) |
 
 ### In Scope
 - **Smart Contracts**: All Dex223 smart contracts on Ethereum mainnet and testnets
@@ -77,8 +117,8 @@ The bug bounty program covers the following smart contract source codes:
 
 ### Out of Scope
 - **Excluded Modules**:
-  - **MarginModule**: [Dex223MarginModule.sol](https://github.com/EthereumCommonwealth/Dex223-contracts/blob/253367297d9093db21661b297cdbb104d8579e35/contracts/dex-core/Dex223MarginModule.sol) - Work-in-progress module not ready for security testing
-  - **PriceOracle for MarginModule**: [Dex223Oracle.sol](https://github.com/EthereumCommonwealth/Dex223-contracts/blob/253367297d9093db21661b297cdbb104d8579e35/contracts/dex-core/Dex223Oracle.sol) - Oracle implementation specifically designed for the MarginModule
+  - **MarginModule**: [Dex223MarginModule.sol](https://github.com/EthereumCommonwealth/Dex223-contracts/blob/aff94493434cdce1396719740f578227d0690d03/contracts/dex-core/Dex223MarginModule.sol) - Work-in-progress module not ready for security testing
+  - **PriceOracle for MarginModule**: [Dex223Oracle.sol](https://github.com/EthereumCommonwealth/Dex223-contracts/blob/aff94493434cdce1396719740f578227d0690d03/contracts/dex-core/Dex223Oracle.sol) - Oracle implementation specifically designed for the MarginModule
 - Social engineering attacks
 - Physical security assessments
 - Third-party services not under our control
