@@ -56,7 +56,7 @@ The bug bounty program covers the following smart contract source codes:
 - **Focus Areas**: All smart contracts within the defined scope, excluding specific modules listed below
 
 ### Deployed Contracts (what to test)
-Reports must reproduce against the contracts deployed at these addresses. Each address links to Etherscan. The core and periphery contracts were deployed on October 7, 2026 from commit [`7d51884`](https://github.com/EthereumCommonwealth/Dex223-contracts/tree/aff94493434cdce1396719740f578227d0690d03).
+Reports must reproduce against the contracts deployed at these addresses. Each address links to Etherscan. The core and periphery contracts were deployed on October 7, 2026. Every contract in these tables except the token converter matches commit [`aff9449`](https://github.com/EthereumCommonwealth/Dex223-contracts/tree/aff94493434cdce1396719740f578227d0690d03) byte for byte. You can confirm this with `scripts/check-deployment-hashes.ts` in that repository. The MarginModule and its Oracle were redeployed on October 10, 2026 and also match this commit, but they stay out of scope (see below).
 
 **Ethereum mainnet**
 
