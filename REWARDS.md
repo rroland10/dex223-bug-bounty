@@ -160,7 +160,7 @@ We aim to process payments as quickly as possible:
 - **Repository**: All reports must be based on [Dex223-contracts](https://github.com/EthereumCommonwealth/Dex223-contracts/tree/aff94493434cdce1396719740f578227d0690d03)
 - **Deployed Code Only**: A report must reproduce against the deployed contracts listed in the [README](README.md#deployed-contracts-what-to-test). Findings that only reproduce on older code that has since been fixed and redeployed are not eligible.
 - **Excluded Modules**: MarginModule and PriceOracle are out of scope
-- **Known Issues**: Pool creation errors and auto-conversion issues are documented and should not be reported
+- **Known Issues**: Pool creation errors, auto-conversion issues and non-standard tokens (fee-on-transfer, rebasing and similar) are documented and should not be reported
 - **Compliance Required**: Reports must comply with scope documentation to be eligible for rewards
 
 

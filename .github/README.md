@@ -92,6 +92,8 @@ The following issues are already known and should not be reported as new vulnera
 
 2. **Auto-conversion Issue**: Auto-conversion of ERC-20 wrapper-tokens to ERC-223 origin in a pair where one token is ERC-20 Origin and the other is ERC-223 Origin does not happen when there is only ERC-20-side liquidity in that pool.
 
+3. **Non-standard tokens (fee-on-transfer, rebasing and similar)**: The Token Converter (EIP-7417) and the DEX support only standard ERC-20 and ERC-223 tokens, which deliver exactly the amount they report. Tokens that charge a fee on transfer, rebase, or otherwise deliver a different amount than they report are not supported. Wrappers minted for such a token can end up under-backed, but the effect is confined to holders of that token's own wrapper, because every wrapper is bound to its origin token. Reports whose impact depends on a non-standard token, including calling `tokenReceived` from a contract that is not a real ERC-223 token, are not eligible (see [issue #13](https://github.com/rroland10/dex223-bug-bounty/issues/13)).
+
 ### Test Environment Access
 - **Test App**: https://test-app.dex223.io
 - **Swap Interface**: https://test-app.dex223.io/en/swap
@@ -102,4 +104,4 @@ The following issues are already known and should not be reported as new vulnera
 
 **Need help?** Join our [Telegram](https://t.me/Dex223_defi) or [Discord](https://discord.gg/t5bdeGC5Jk) community!
 
-*Last Updated: July 2025*
+*Last Updated: October 2026*
