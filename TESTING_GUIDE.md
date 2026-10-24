@@ -35,7 +35,7 @@ npx hardhat deploy --network sepolia
 ## Testing Targets
 
 ### Smart Contracts
-- **Repository**: [Dex223-contracts](https://github.com/EthereumCommonwealth/Dex223-contracts/tree/aff94493434cdce1396719740f578227d0690d03)
+- **Repository**: [Dex223-contracts](https://github.com/EthereumCommonwealth/Dex223-contracts/tree/18fa3272c820df349551881d46fb9b13a2bcba62)
 - **Main Contract**: `0x...` (Sepolia)
 - **Router**: `0x...` (Sepolia)
 - **Factory**: `0x...` (Sepolia)
@@ -121,7 +121,7 @@ python scripts/api_tests.py
 ## Testing Checklist
 
 ### Smart Contracts
-- [ ] **Repository Access**: Verify access to [Dex223-contracts](https://github.com/EthereumCommonwealth/Dex223-contracts/tree/aff94493434cdce1396719740f578227d0690d03)
+- [ ] **Repository Access**: Verify access to [Dex223-contracts](https://github.com/EthereumCommonwealth/Dex223-contracts/tree/18fa3272c820df349551881d46fb9b13a2bcba62)
 - [ ] **Reentrancy**: Check for external calls before state changes
 - [ ] **Integer Overflow**: Verify SafeMath usage
 - [ ] **Access Control**: Review modifier implementations

@@ -64,7 +64,7 @@ See our [Rewards Structure](../REWARDS.md) for complete details.
 
 ### Smart Contract Source Codes
 The bug bounty program covers the following smart contract source codes:
-- **Repository**: [Dex223-contracts](https://github.com/EthereumCommonwealth/Dex223-contracts/tree/aff94493434cdce1396719740f578227d0690d03)
+- **Repository**: [Dex223-contracts](https://github.com/EthereumCommonwealth/Dex223-contracts/tree/18fa3272c820df349551881d46fb9b13a2bcba62)
 - **Focus Areas**: All smart contracts within the defined scope, excluding specific modules listed below
 
 ### In Scope
