@@ -92,7 +92,7 @@
 - [Academic papers]
 - [Blog posts]
 - [GitHub Repository](https://github.com/EthereumCommonwealth)
-- [Dex223-contracts Repository](https://github.com/EthereumCommonwealth/Dex223-contracts/tree/7d5188424b0c4260c791dd549574e27d5e44d082)
+- [Dex223-contracts Repository](https://github.com/EthereumCommonwealth/Dex223-contracts/tree/aff94493434cdce1396719740f578227d0690d03)
 
 ### Timeline
 - **Discovery**: [Date]

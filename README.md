@@ -52,11 +52,11 @@ Our team members will review these public reports and respond in the comments th
 
 ### Smart Contract Source Codes
 The bug bounty program covers the following smart contract source codes:
-- **Repository**: [Dex223-contracts](https://github.com/EthereumCommonwealth/Dex223-contracts/tree/7d5188424b0c4260c791dd549574e27d5e44d082)
+- **Repository**: [Dex223-contracts](https://github.com/EthereumCommonwealth/Dex223-contracts/tree/aff94493434cdce1396719740f578227d0690d03)
 - **Focus Areas**: All smart contracts within the defined scope, excluding specific modules listed below
 
 ### Deployed Contracts (what to test)
-Reports must reproduce against the contracts deployed at these addresses. Each address links to Etherscan. The core and periphery contracts were deployed on October 7, 2026 from commit [`7d51884`](https://github.com/EthereumCommonwealth/Dex223-contracts/tree/7d5188424b0c4260c791dd549574e27d5e44d082).
+Reports must reproduce against the contracts deployed at these addresses. Each address links to Etherscan. The core and periphery contracts were deployed on October 7, 2026 from commit [`7d51884`](https://github.com/EthereumCommonwealth/Dex223-contracts/tree/aff94493434cdce1396719740f578227d0690d03).
 
 **Ethereum mainnet**
 
@@ -117,8 +117,8 @@ These older contracts are still on-chain but no longer used by the Dex223 app. T
 
 ### Out of Scope
 - **Excluded Modules**:
-  - **MarginModule**: [Dex223MarginModule.sol](https://github.com/EthereumCommonwealth/Dex223-contracts/blob/7d5188424b0c4260c791dd549574e27d5e44d082/contracts/dex-core/Dex223MarginModule.sol) - Work-in-progress module not ready for security testing
-  - **PriceOracle for MarginModule**: [Dex223Oracle.sol](https://github.com/EthereumCommonwealth/Dex223-contracts/blob/7d5188424b0c4260c791dd549574e27d5e44d082/contracts/dex-core/Dex223Oracle.sol) - Oracle implementation specifically designed for the MarginModule
+  - **MarginModule**: [Dex223MarginModule.sol](https://github.com/EthereumCommonwealth/Dex223-contracts/blob/aff94493434cdce1396719740f578227d0690d03/contracts/dex-core/Dex223MarginModule.sol) - Work-in-progress module not ready for security testing
+  - **PriceOracle for MarginModule**: [Dex223Oracle.sol](https://github.com/EthereumCommonwealth/Dex223-contracts/blob/aff94493434cdce1396719740f578227d0690d03/contracts/dex-core/Dex223Oracle.sol) - Oracle implementation specifically designed for the MarginModule
 - Social engineering attacks
 - Physical security assessments
 - Third-party services not under our control
