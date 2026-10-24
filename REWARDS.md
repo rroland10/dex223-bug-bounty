@@ -159,7 +159,7 @@ We aim to process payments as quickly as possible:
 ### Important Notes
 - **Repository**: All reports must be based on [Dex223-contracts](https://github.com/EthereumCommonwealth/Dex223-contracts/tree/253367297d9093db21661b297cdbb104d8579e35)
 - **Excluded Modules**: MarginModule and PriceOracle are out of scope
-- **Known Issues**: Pool creation errors and auto-conversion issues are documented and should not be reported
+- **Known Issues**: Pool creation errors, auto-conversion issues and non-standard tokens (fee-on-transfer, rebasing and similar) are documented and should not be reported
 - **Compliance Required**: Reports must comply with scope documentation to be eligible for rewards
 
 
