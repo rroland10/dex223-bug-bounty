@@ -160,7 +160,7 @@ If you experience or witness unacceptable behavior:
 
 ### Smart Contract Source Codes
 The bug bounty program covers the following smart contract source codes:
-- **Repository**: [Dex223-contracts](https://github.com/EthereumCommonwealth/Dex223-contracts/tree/18fa3272c820df349551881d46fb9b13a2bcba62)
+- **Repository**: [Dex223-contracts](https://github.com/EthereumCommonwealth/Dex223-contracts/tree/00ad2a0df71852d8dc7ebc039058c440b4bc8572)
 - **Focus Areas**: All smart contracts within the defined scope, excluding specific modules listed below
 
 ## Out of Scope
@@ -168,10 +168,10 @@ The bug bounty program covers the following smart contract source codes:
 ### Excluded Modules
 The following modules are explicitly out of scope for the bug bounty program:
 
-- **MarginModule**: [Dex223MarginModule.sol](https://github.com/EthereumCommonwealth/Dex223-contracts/blob/18fa3272c820df349551881d46fb9b13a2bcba62/contracts/dex-core/Dex223MarginModule.sol)
+- **MarginModule**: [Dex223MarginModule.sol](https://github.com/EthereumCommonwealth/Dex223-contracts/blob/00ad2a0df71852d8dc7ebc039058c440b4bc8572/contracts/dex-core/Dex223MarginModule.sol)
   - **Reason**: Work-in-progress module not ready for security testing
   
-- **PriceOracle for MarginModule**: [Dex223Oracle.sol](https://github.com/EthereumCommonwealth/Dex223-contracts/blob/18fa3272c820df349551881d46fb9b13a2bcba62/contracts/dex-core/Dex223Oracle.sol)
+- **PriceOracle for MarginModule**: [Dex223Oracle.sol](https://github.com/EthereumCommonwealth/Dex223-contracts/blob/00ad2a0df71852d8dc7ebc039058c440b4bc8572/contracts/dex-core/Dex223Oracle.sol)
   - **Reason**: Oracle implementation specifically designed for the MarginModule
 
 ## Known Issues
