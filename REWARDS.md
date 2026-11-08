@@ -87,6 +87,11 @@ The Dex223 Bug Bounty Program offers competitive rewards in D223 tokens for secu
 - **Cryptocurrency**: Bitcoin, Ethereum, USDC, USDT (for international researchers)
 - **Bank Transfer**: Wire transfer to verified accounts (for large rewards)
 
+### Eligibility and Sanctions
+- **Sanctioned countries and regions**: We cannot pay rewards to anyone who is a resident or national of, or located in, a country or region subject to sanctions, or to anyone on a sanctions list. This currently includes, among others, Belarus, Cuba, Iran, North Korea, Russia, Syria, and the Crimea, Donetsk and Luhansk regions. Reports from these places are welcome, but no reward can be paid.
+- **Screening before payout**: Every payout is subject to identity and sanctions screening. A reward that fails screening is not paid in any currency or through any intermediary.
+- **No upfront costs**: We never ask for a deposit, fee or payment of any kind before a report is reviewed or a reward is paid. Treat any such request as a scam.
+
 ### Payment Timeline
 We aim to process payments as quickly as possible:
 - **Critical Issues**: Within 1-2 weeks of resolution
