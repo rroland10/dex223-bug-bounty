@@ -74,7 +74,7 @@ The security program covers the following smart contract source codes:
 - **Focus Areas**: All smart contracts within the defined scope, excluding specific modules listed below
 
 ### In Scope
-- **Smart Contracts**: All Dex223 contracts on Ethereum mainnet and testnets
+- **Smart Contracts**: The Dex223 contracts deployed on Ethereum mainnet (see the README). Testnet deployments, Sepolia included, are for testing and are not in scope
 - **Web Application**: Frontend and backend services at https://test-app.dex223.io
 - **API Endpoints**: All public and authenticated APIs including Fiat on/off-ramp integration
 - **Swap Interface**: https://test-app.dex223.io/en/swap
