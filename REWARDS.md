@@ -30,10 +30,10 @@ The Dex223 Bug Bounty Program offers competitive rewards in D223 tokens for secu
 
 ### Medium Severity (3M D223)
 
-**Description**: A low-severity problem that can lead to a loss of funds but under specific conditions
+**Description**: A problem that can lead to a loss of funds, but only under specific conditions
 
 **Examples:**
-- Information disclosure
+- Information disclosure that does not expose sensitive data
 - Cross-site request forgery (CSRF)
 - Insecure direct object references
 - Weak encryption implementation

@@ -16,8 +16,8 @@
 
 #### 1. Clone the Repository
 ```bash
-git clone https://github.com/EthereumCommonwealth/Dex223-exchange.git
-cd Dex223-exchange
+git clone https://github.com/EthereumCommonwealth/Dex223-contracts.git
+cd Dex223-contracts
 npm install
 ```
 
@@ -50,7 +50,7 @@ npx hardhat deploy --network sepolia
 ### Web Application
 - **Test Environment**: https://test-app.dex223.io
 - **Swap Interface**: https://test-app.dex223.io/en/swap
-- **API**: Fiat on/off-ramp integration
+- **API**: Fiat on/off-ramp integration (the Dex223 side only; the provider's own services are out of scope)
 
 ### Test Tokens
 - **Sepolia ETH**: [Chainlink Faucet](https://faucets.chain.link/sepolia) or [Alchemy Faucet](https://www.alchemy.com/faucets/ethereum-sepolia)
@@ -76,7 +76,7 @@ echidna-test contracts/Dex223.sol
 ### Web Application Testing
 ```bash
 # OWASP ZAP
-docker run -v $(pwd):/zap/wrk -t owasp/zap2docker-stable zap-baseline.py -t https://app.dex223.com
+docker run -v $(pwd):/zap/wrk -t owasp/zap2docker-stable zap-baseline.py -t https://test-app.dex223.io
 
 # Burp Suite
 # Download from https://portswigger.net/burp
