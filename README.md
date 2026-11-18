@@ -1,9 +1,9 @@
 # Dex223 Bug Bounty Program
 
-[![Bug Bounty](https://img.shields.io/badge/Bug%20Bounty-Active-brightgreen)](https://github.com/dex223/bug-bounty)
-[![Security](https://img.shields.io/badge/Security-Responsible%20Disclosure-blue)](https://github.com/dex223/bug-bounty/blob/main/SECURITY.md)
-[![Rewards](https://img.shields.io/badge/Rewards-Up%20to%2030M%20D223-orange)](https://github.com/dex223/bug-bounty/blob/main/REWARDS.md)
-[![Status](https://img.shields.io/badge/Status-Active%20Program-success)](https://github.com/dex223/bug-bounty)
+[![Bug Bounty](https://img.shields.io/badge/Bug%20Bounty-Active-brightgreen)](https://github.com/rroland10/dex223-bug-bounty)
+[![Security](https://img.shields.io/badge/Security-Responsible%20Disclosure-blue)](https://github.com/rroland10/dex223-bug-bounty/blob/main/SECURITY.md)
+[![Rewards](https://img.shields.io/badge/Rewards-Up%20to%2030M%20D223-orange)](https://github.com/rroland10/dex223-bug-bounty/blob/main/REWARDS.md)
+[![Status](https://img.shields.io/badge/Status-Active%20Program-success)](https://github.com/rroland10/dex223-bug-bounty)
 [![Community](https://img.shields.io/badge/Community-10%2B%20Security%20Researchers-blueviolet)](https://t.me/Dex223_defi)
 
 ## Overview

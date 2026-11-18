@@ -83,9 +83,8 @@ The Dex223 Bug Bounty Program offers competitive rewards in D223 tokens for secu
 ## Payment Methods
 
 ### Supported Payment Options
-- **D223 Tokens**: Primary reward currency
-- **Cryptocurrency**: Bitcoin, Ethereum, USDC, USDT (for international researchers)
-- **Bank Transfer**: Wire transfer to verified accounts (for large rewards)
+- **D223 tokens only**: Every reward is paid in D223, sent to an Ethereum wallet address you control. We verify the address before payment.
+- **No other methods**: We do not pay in other cryptocurrencies, by bank transfer or in fiat.
 
 ### Payment Timeline
 We aim to process payments as quickly as possible:
@@ -126,20 +125,6 @@ We aim to process payments as quickly as possible:
 - **Academic partnerships**: Research funding opportunities
 - **Community leaders**: Recognition and rewards
 
-## Payment Statistics
-
-### Historical Data
-- **Average Reward**: 10M D223
-- **Highest Reward**: 30M D223
-- **Total Paid**: 500M+ D223 (since program inception)
-- **Researchers Paid**: 10+
-- **Current Year**: 2025
-
-### Payment Success Rate
-- **On-time Payments**: 98.5%
-- **Dispute Resolution**: 100%
-- **Researcher Satisfaction**: 4.8/5.0
-
 ## Reward Appeals
 
 ### Appeal Process
@@ -162,8 +147,6 @@ We aim to process payments as quickly as possible:
 - **Excluded Modules**: MarginModule and PriceOracle are out of scope
 - **Known Issues**: Pool creation errors, auto-conversion issues and non-standard tokens (fee-on-transfer, rebasing and similar) are documented and should not be reported
 - **Compliance Required**: Reports must comply with scope documentation to be eligible for rewards
-
-
 
 ---
 
