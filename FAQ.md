@@ -18,7 +18,7 @@ Rewards are paid in D223 tokens:
 - **Medium**: 3M D223 - A low-severity problem that can lead to a loss of funds but under specific conditions
 - **Info**: 1M D223 - Anything else - best practices, documentation improvements, etc.
 
-*Updated: July 2025*
+*Updated: November 2026*
 
 ## Scope Questions
 
@@ -158,7 +158,7 @@ We review and update the program based on:
 - Program effectiveness metrics
 - Scope expansion needs
 
-*Next review: October 2025*
+*Next review: February 2027*
 
 ### Can I appeal a decision?
 Yes! You can appeal within 30 days if you believe:
@@ -223,4 +223,4 @@ For urgent issues:
 
 **Still have questions?** Open a [GitHub issue](https://github.com/rroland10/dex223-bug-bounty/issues) or join our Telegram/Discord community!
 
-*Last Updated: July 2025* 
+*Last Updated: November 2026* 

@@ -199,6 +199,6 @@ Reports may be disqualified for:
 
 ---
 
-**Last Updated**: July 2025  
+**Last Updated**: November 2026  
 **Version**: 1.0  
-**Next Review**: October 2025 
+**Next Review**: February 2027 

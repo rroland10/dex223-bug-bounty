@@ -182,4 +182,4 @@ The following issues are already known and should not be reported as new vulnera
 
 ---
 
-*Last updated: July 2025* 
+*Last updated: November 2026* 
