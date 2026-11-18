@@ -137,4 +137,4 @@ Our team members will review these public reports and respond in the comments th
 
 **Note**: This template is provided as a guide. You can also submit reports directly through our GitHub issue templates for an even simpler experience.
 
-*Last Updated: July 2025* 
+*Last Updated: November 2026* 

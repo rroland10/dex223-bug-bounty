@@ -154,5 +154,5 @@ We aim to process payments as quickly as possible:
 
 **Found a vulnerability?** Simply open a [GitHub issue](https://github.com/rroland10/dex223-bug-bounty/issues) to report it!
 
-**Last Updated**: July 2025  
-**Next Review**: October 2025 
+**Last Updated**: November 2026  
+**Next Review**: February 2027 
