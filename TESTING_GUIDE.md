@@ -36,9 +36,7 @@ npx hardhat deploy --network sepolia
 
 ### Smart Contracts
 - **Repository**: [Dex223-contracts](https://github.com/EthereumCommonwealth/Dex223-contracts/tree/00ad2a0df71852d8dc7ebc039058c440b4bc8572)
-- **Main Contract**: `0x...` (Sepolia)
-- **Router**: `0x...` (Sepolia)
-- **Factory**: `0x...` (Sepolia)
+- **Sepolia test contracts**: listed in the README under "Sepolia test environment". Use them to test; contract findings must reproduce against the mainnet contracts
 - **ERC-223 Implementation**: Token contracts with enhanced security
 
 **Note**: MarginModule and PriceOracle are excluded from testing scope (work-in-progress modules)

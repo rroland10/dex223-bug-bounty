@@ -56,7 +56,7 @@ The bug bounty program covers the following smart contract source codes:
 - **Focus Areas**: All smart contracts within the defined scope, excluding specific modules listed below
 
 ### Deployed Contracts (what to test)
-Reports must reproduce against the contracts deployed at these addresses. Each address links to Etherscan. The core and periphery contracts were deployed on October 7, 2026. Every contract in these tables except the token converter matches commit [`00ad2a0`](https://github.com/EthereumCommonwealth/Dex223-contracts/tree/00ad2a0df71852d8dc7ebc039058c440b4bc8572) byte for byte. You can confirm this with `scripts/check-deployment-hashes.ts` in that repository. The margin Oracle was redeployed on October 10, 2026 and the MarginModule on October 28, 2026 (with liquidation-safety fixes, Dex223-contracts#126); both match this commit, but they stay out of scope (see below).
+Contract reports must reproduce against the mainnet contracts deployed at these addresses. Each address links to Etherscan. The core and periphery contracts were deployed on October 7, 2026. Every contract in these tables except the token converter matches commit [`00ad2a0`](https://github.com/EthereumCommonwealth/Dex223-contracts/tree/00ad2a0df71852d8dc7ebc039058c440b4bc8572) byte for byte. You can confirm this with `scripts/check-deployment-hashes.ts` in that repository. The margin Oracle was redeployed on October 10, 2026 and the MarginModule on October 28, 2026 (with liquidation-safety fixes, Dex223-contracts#126); both match this commit, but they stay out of scope (see below).
 
 **Ethereum mainnet**
 
@@ -72,16 +72,18 @@ Reports must reproduce against the contracts deployed at these addresses. Each a
 
 The converter is the original ERC-7417 deployment from March 2025; later converter changes in the repository are not deployed.
 
-**Sepolia (used by https://test-app.dex223.io)**
+**Sepolia test environment (used by https://test-app.dex223.io, not in scope)**
+
+Use these contracts to test. They are a test deployment, built from a newer commit than the mainnet contracts, and they are not in scope: a contract finding must reproduce against the mainnet contracts above. The current deployment is v6, live since November 8, 2026.
 
 | Contract | Address |
 |---|---|
-| Factory | [`0xf07cc56E969Bc08395E80Da099e44d122bFa42B9`](https://sepolia.etherscan.io/address/0xf07cc56E969Bc08395E80Da099e44d122bFa42B9#code) |
-| Swap router | [`0x322D53bda812099287BB74baA487c069C5F7B2b1`](https://sepolia.etherscan.io/address/0x322D53bda812099287BB74baA487c069C5F7B2b1#code) |
-| Position manager | [`0x1b14B1136BE241565eDa7eB465919C7413a1bb47`](https://sepolia.etherscan.io/address/0x1b14B1136BE241565eDa7eB465919C7413a1bb47#code) |
-| Quoter | [`0x11E200C04681e8348beF96c8C1dcfdECFC2dEc0C`](https://sepolia.etherscan.io/address/0x11E200C04681e8348beF96c8C1dcfdECFC2dEc0C#code) |
-| Core autolisting | [`0xF35AB968Eb874A56244e7df1D569F06aEf327936`](https://sepolia.etherscan.io/address/0xF35AB968Eb874A56244e7df1D569F06aEf327936#code) |
-| Free autolisting | [`0x0F81b549eE7DB363fbbb4358B9004C2AB97C7118`](https://sepolia.etherscan.io/address/0x0F81b549eE7DB363fbbb4358B9004C2AB97C7118#code) |
+| Factory | [`0xbdC7986B4C46F3629948f78a8F9942A88c111A86`](https://sepolia.etherscan.io/address/0xbdC7986B4C46F3629948f78a8F9942A88c111A86#code) |
+| Swap router | [`0x6812B2784111B8b674773CC0F32b8a480563E71b`](https://sepolia.etherscan.io/address/0x6812B2784111B8b674773CC0F32b8a480563E71b#code) |
+| Position manager | [`0x461AFb20bB4b8f330608Ea582E13B1a6A749A4D0`](https://sepolia.etherscan.io/address/0x461AFb20bB4b8f330608Ea582E13B1a6A749A4D0#code) |
+| Quoter | [`0x5c2eEB7D37DF54463BFDd61645FbC9E402d4319d`](https://sepolia.etherscan.io/address/0x5c2eEB7D37DF54463BFDd61645FbC9E402d4319d#code) |
+| Core autolisting | [`0x6BB287ab1a02Aa8Bb43Ed98D3Bb1DE824E062b35`](https://sepolia.etherscan.io/address/0x6BB287ab1a02Aa8Bb43Ed98D3Bb1DE824E062b35#code) |
+| Free autolisting | [`0xD46566B0682dccD55BBfCAF45C848086143F5a14`](https://sepolia.etherscan.io/address/0xD46566B0682dccD55BBfCAF45C848086143F5a14#code) |
 | Token converter (ERC-7417) | [`0x5847f5C0E09182d9e75fE8B1617786F62fee0D9F`](https://sepolia.etherscan.io/address/0x5847f5C0E09182d9e75fE8B1617786F62fee0D9F#code) |
 
 ### Deprecated Deployments
@@ -96,7 +98,7 @@ These older contracts are still on-chain but no longer used by the Dex223 app. T
 | Factory | [`0xc0c5511f23a268f041Ad10466a17b719942a8F1f`](https://etherscan.io/address/0xc0c5511f23a268f041Ad10466a17b719942a8F1f#code) |
 
 ### In Scope
-- **Smart Contracts**: All Dex223 smart contracts on Ethereum mainnet and testnets
+- **Smart Contracts**: The Dex223 smart contracts deployed on Ethereum mainnet (listed above). Testnet deployments, Sepolia included, are for testing and are not in scope
 - **Web Application**: Frontend and backend services at https://test-app.dex223.io
 - **API Endpoints**: All public and authenticated APIs including Fiat on/off-ramp integration
 - **Swap Interface**: https://test-app.dex223.io/en/swap
