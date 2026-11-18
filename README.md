@@ -50,6 +50,8 @@ Our team members will review these public reports and respond in the comments th
 
 ## Program Scope
 
+*If two program documents ever disagree, [RULES.md](RULES.md) prevails.*
+
 ### Smart Contract Source Codes
 The bug bounty program covers the following smart contract source codes:
 - **Repository**: [Dex223-contracts](https://github.com/EthereumCommonwealth/Dex223-contracts/tree/00ad2a0df71852d8dc7ebc039058c440b4bc8572)
@@ -100,7 +102,7 @@ These older contracts are still on-chain but no longer used by the Dex223 app. T
 ### In Scope
 - **Smart Contracts**: The Dex223 smart contracts deployed on Ethereum mainnet (listed above). Testnet deployments, Sepolia included, are for testing and are not in scope
 - **Web Application**: Frontend and backend services at https://test-app.dex223.io
-- **API Endpoints**: All public and authenticated APIs including Fiat on/off-ramp integration
+- **API Endpoints**: All public and authenticated APIs, including the Dex223 side of the fiat on/off-ramp integration (how the app loads and talks to the provider's widget); the provider's own services are third-party and out of scope
 - **Swap Interface**: https://test-app.dex223.io/en/swap
 - **Test Environment**: https://test-app.dex223.io
 - **Infrastructure**: Cloud services and deployment pipelines
@@ -141,7 +143,7 @@ The following issues are already known and should not be reported as new vulnera
 |----------|---------|-------------|
 | **Critical** | 30M D223 | A vulnerability that can completely break the contracts workflow |
 | **High** | 7M D223 | A bug report that indicates a high severity problem but can't impact the whole platform |
-| **Medium** | 3M D223 | A low-severity problem that can lead to a loss of funds but under specific conditions |
+| **Medium** | 3M D223 | A problem that can lead to a loss of funds, but only under specific conditions |
 | **Info** | 1M D223 | Anything else - best practices, documentation improvements, etc. |
 
 ## Important Links

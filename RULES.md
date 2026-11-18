@@ -23,7 +23,7 @@ The Dex223 Bug Bounty Program is designed to identify and fix security vulnerabi
 ### Allowed Activities
 - **Smart Contract Testing**: Static analysis, fuzzing, formal verification of [Dex223-contracts](https://github.com/EthereumCommonwealth/Dex223-contracts/tree/00ad2a0df71852d8dc7ebc039058c440b4bc8572)
 - **Web Application Testing**: OWASP Top 10 vulnerabilities, API testing
-- **API Endpoint Testing**: All public and authenticated APIs including Fiat on/off-ramp integration
+- **API Endpoint Testing**: All public and authenticated APIs, including the Dex223 side of the fiat on/off-ramp integration (how the app loads and talks to the provider's widget); the provider's own services are third-party and out of scope
 - **Infrastructure Testing**: Cloud misconfigurations, deployment pipeline analysis
 - **Social Engineering**: Phishing simulations (with prior approval)
 
@@ -62,30 +62,27 @@ All submissions should include:
 - **Your contact info**: How we can reach you for rewards
 
 ### Submission Channels
-- **Primary**: [GitHub Issues](https://github.com/rroland10/dex223-bug-bounty/issues)
-- **Backup**: GitHub Security Advisories
-- **Emergency**: Telegram channel (for critical issues)
+- **Reports**: [GitHub Issues](https://github.com/rroland10/dex223-bug-bounty/issues). Issues in this repository are public.
+- **Urgent alerts**: Telegram channel, to tell the team a critical report is waiting. The report itself goes in a GitHub issue.
+- **Disclosure**: Do not publish a vulnerability outside this repository (social media, blogs, other repositories or chat channels) until we have coordinated a fix.
 
 ## Response Timeline
 
 ### Initial Response
-We aim to respond to all reports as quickly as possible, typically:
-- **Critical Issues**: Within 24-48 hours
-- **High Severity**: Within 3-5 business days
-- **Medium Severity**: Within 1-2 weeks
-- **Info**: Within 1-2 weeks
+We reply to every report:
+- **Critical and High**: Within 3 days
+- **Medium and Info**: Within 7 days
 
 ### Resolution Timeline
-Resolution times may vary based on complexity and team availability:
-- **Critical Issues**: As soon as possible, typically 1-2 weeks
-- **High Severity**: 2-4 weeks
-- **Medium Severity**: 4-8 weeks
-- **Info**: 6-12 weeks
+Fix timing depends on what is affected:
+- **Web application**: A fix ships as soon as it is ready and tested.
+- **Smart contracts**: Deployed contracts cannot be changed, so a contract fix ships with the next contract deployment.
+- **Progress**: We post updates in the issue until the fix is live.
 
 ### Communication
 - Status updates via GitHub issue comments
 - Public disclosure coordination
-- Researcher acknowledgment in security advisories
+- Researcher acknowledgment in the issue and when the fix is announced
 
 ## Reward Criteria
 
@@ -100,7 +97,7 @@ Rewards are determined based on:
 Rewards are paid in D223 tokens:
 - **Critical**: 30M D223 - A vulnerability that can completely break the contracts workflow
 - **High**: 7M D223 - A bug report that indicates a high severity problem but can't impact the whole platform
-- **Medium**: 3M D223 - A low-severity problem that can lead to a loss of funds but under specific conditions
+- **Medium**: 3M D223 - A problem that can lead to a loss of funds, but only under specific conditions
 - **Info**: 1M D223 - Anything else - best practices, documentation improvements, etc.
 
 ### Bonus Factors
@@ -165,7 +162,7 @@ Reports may be disqualified for:
 - Researchers retain rights to their findings
 - Dex223 may use findings for security improvements
 - Public disclosure coordination
-- Attribution in security advisories
+- Attribution in the issue and when the fix is announced
 
 ## Support and Communication
 
@@ -178,7 +175,7 @@ Reports may be disqualified for:
 
 ### Communication Channels
 - **Primary**: GitHub Issues for all reports and questions
-- **Updates**: GitHub Security Advisories
+- **Updates**: GitHub issues in this repository
 - **Community**: Telegram and Discord servers
 - **Public**: Security blog and social media
 - **Repository**: [EthereumCommonwealth](https://github.com/EthereumCommonwealth)

@@ -15,7 +15,7 @@ Anyone can participate except:
 Rewards are paid in D223 tokens:
 - **Critical**: 30M D223 - A vulnerability that can completely break the contracts workflow
 - **High**: 7M D223 - A bug report that indicates a high severity problem but can't impact the whole platform
-- **Medium**: 3M D223 - A low-severity problem that can lead to a loss of funds but under specific conditions
+- **Medium**: 3M D223 - A problem that can lead to a loss of funds, but only under specific conditions
 - **Info**: 1M D223 - Anything else - best practices, documentation improvements, etc.
 
 *Updated: November 2026*
@@ -25,7 +25,7 @@ Rewards are paid in D223 tokens:
 ### What's in scope?
 - **Smart Contracts**: [Dex223-contracts repository](https://github.com/EthereumCommonwealth/Dex223-contracts/tree/00ad2a0df71852d8dc7ebc039058c440b4bc8572) as deployed on Ethereum mainnet (see the README). Testnet deployments, Sepolia included, are for testing and are not in scope
 - **Web Application**: Frontend and backend services at https://test-app.dex223.io
-- **API Endpoints**: All public and authenticated APIs including Fiat on/off-ramp integration
+- **API Endpoints**: All public and authenticated APIs, including the Dex223 side of the fiat on/off-ramp integration (how the app loads and talks to the provider's widget); the provider's own services are third-party and out of scope
 - **Swap Interface**: https://test-app.dex223.io/en/swap
 - **Test Environment**: https://test-app.dex223.io
 - **Infrastructure**: Cloud services and deployment pipelines
@@ -85,12 +85,8 @@ We aim to process payments as quickly as possible:
 
 ### How long does it take to get a response?
 We aim to respond to all reports as quickly as possible:
-- **Critical Issues**: Within 1-3 days
-- **High Severity**: Within 3-7 days
-- **Medium Severity**: Within 1-2 weeks
-- **Info**: Within 1-2 weeks
-
-*Note: Response times may vary based on team availability*
+- **Critical and High**: Within 3 days
+- **Medium and Info**: Within 7 days
 
 ## Security Questions
 
@@ -100,7 +96,7 @@ Yes, as long as you follow our program rules and scope. We provide safe harbor f
 ### What if I find a critical vulnerability?
 1. **Don't exploit it further** beyond proof of concept
 2. **Report it immediately** via GitHub issue
-3. **Don't publicly disclose** until we coordinate
+3. **Don't disclose it outside this repository (social media, blogs, other repositories or chat channels)** until we coordinate; issues here are public
 4. **Follow our responsible disclosure timeline**
 
 ### Can I collaborate with other researchers?
@@ -135,7 +131,7 @@ Yes! Join our telegram channel for:
 ## Recognition Questions
 
 ### Will I be publicly acknowledged?
-Yes! We publicly acknowledge researchers in security advisories. You can choose to remain anonymous if preferred.
+Yes! We publicly acknowledge researchers in the issue and when the fix is announced. You can choose to remain anonymous if preferred.
 
 ### Are there special rewards?
 Yes! We offer bonus considerations for:
@@ -202,7 +198,7 @@ Absolutely! We welcome feedback on:
 
 ### What if I find a critical vulnerability being exploited?
 1. **Open a GitHub issue immediately** with "CRITICAL" in the title
-2. **Don't publicly disclose** the vulnerability
+2. **Don't disclose it outside this repository (social media, blogs, other repositories or chat channels)**
 3. **Provide minimal details** needed for immediate response
 4. **Follow our coordinated disclosure process**
 

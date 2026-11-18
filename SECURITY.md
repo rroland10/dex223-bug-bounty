@@ -7,9 +7,8 @@ Dex223 is committed to maintaining the highest security standards through proact
 ### Disclosure Timeline
 
 We aim to address vulnerabilities as quickly as possible:
-- **Initial Response**: Within 1-7 days for acknowledgment
-- **Assessment**: 1-4 weeks for vulnerability assessment and fix development
-- **Deployment**: 2-8 weeks for fix deployment and testing
+- **Initial Response**: Within 3 days for Critical and High reports, within 7 days for all others
+- **Fix**: A web application fix ships as soon as it is ready and tested; deployed smart contracts cannot be changed, so a contract fix ships with the next contract deployment
 - **Public Disclosure**: Coordinated disclosure when fixes are ready
 
 *Note: Timeline may vary based on complexity and team availability*
@@ -39,7 +38,7 @@ We aim to address vulnerabilities as quickly as possible:
 - **Don't exploit** vulnerabilities beyond proof of concept
 - **Don't access** other users' data without permission
 - **Don't perform** denial of service attacks
-- **Don't publicly disclose** before coordination
+- **Don't disclose** a vulnerability outside this repository (social media, blogs, other repositories or chat channels) before coordination; reports in this repository's issues are public
 - **Don't attempt** social engineering without approval
 
 ### What We Promise
@@ -57,7 +56,7 @@ We reward security researchers with our native D223 tokens:
 
 - **Critical**: 30M D223 - A vulnerability that can completely break the contracts workflow
 - **High**: 7M D223 - A bug report that indicates a high severity problem but can't impact the whole platform
-- **Medium**: 3M D223 - A low-severity problem that can lead to a loss of funds but under specific conditions
+- **Medium**: 3M D223 - A problem that can lead to a loss of funds, but only under specific conditions
 - **Info**: 1M D223 - Anything else - best practices, documentation improvements, etc.
 
 ### Payment Process
@@ -76,7 +75,7 @@ The security program covers the following smart contract source codes:
 ### In Scope
 - **Smart Contracts**: The Dex223 contracts deployed on Ethereum mainnet (see the README). Testnet deployments, Sepolia included, are for testing and are not in scope
 - **Web Application**: Frontend and backend services at https://test-app.dex223.io
-- **API Endpoints**: All public and authenticated APIs including Fiat on/off-ramp integration
+- **API Endpoints**: All public and authenticated APIs, including the Dex223 side of the fiat on/off-ramp integration (how the app loads and talks to the provider's widget); the provider's own services are third-party and out of scope
 - **Swap Interface**: https://test-app.dex223.io/en/swap
 - **Test Environment**: https://test-app.dex223.io
 - **Infrastructure**: Cloud services and deployment pipelines
