@@ -66,11 +66,11 @@ slither .
 
 # Mythril symbolic execution
 pip install mythril
-myth analyze contracts/Dex223.sol
+myth analyze contracts/Dex223Pool.sol
 
 # Echidna fuzzing
 cargo install echidna
-echidna-test contracts/Dex223.sol
+echidna-test contracts/Dex223Pool.sol
 ```
 
 ### Web Application Testing
@@ -81,17 +81,16 @@ docker run -v $(pwd):/zap/wrk -t owasp/zap2docker-stable zap-baseline.py -t http
 # Burp Suite
 # Download from https://portswigger.net/burp
 
-# Custom scripts
-python scripts/web_scanner.py
+# Custom scripts (refer to existing scripts in the repository)
 ```
 
 ### API Testing
 ```bash
 # Postman collection
-# Import: dex223-api-tests.postman_collection.json
+# (No Postman collection provided)
 
 # Custom API tests
-python scripts/api_tests.py
+# (Refer to existing scripts in the repository)
 ```
 
 ## Testing Methodology
