@@ -66,11 +66,10 @@ slither .
 
 # Mythril symbolic execution
 pip install mythril
-myth analyze contracts/Dex223.sol
+myth analyze contracts/dex-core/Dex223Pool.sol
 
-# Echidna fuzzing
-cargo install echidna
-echidna-test contracts/Dex223.sol
+# Echidna fuzzing (needs a property harness of your own; there is none in the repository)
+# See https://github.com/crytic/echidna for installation and harness setup
 ```
 
 ### Web Application Testing
@@ -80,19 +79,10 @@ docker run -v $(pwd):/zap/wrk -t owasp/zap2docker-stable zap-baseline.py -t http
 
 # Burp Suite
 # Download from https://portswigger.net/burp
-
-# Custom scripts
-python scripts/web_scanner.py
 ```
 
 ### API Testing
-```bash
-# Postman collection
-# Import: dex223-api-tests.postman_collection.json
-
-# Custom API tests
-python scripts/api_tests.py
-```
+There is no published API test collection or script. Test the app's API routes (for example `/api/rpc/<chain>` and `/api/subgraph/<target>` on https://test-app.dex223.io) with your own tools, within the rules in RULES.md.
 
 ## Testing Methodology
 
