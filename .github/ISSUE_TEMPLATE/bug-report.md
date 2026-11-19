@@ -55,4 +55,4 @@ Add any other context, logs, or information here.
 
 ---
 
-**Note**: This is a public issue. For extremely sensitive vulnerabilities, consider using GitHub Security Advisories instead.
+**Note**: Reports here are public issues. Do not publish a vulnerability anywhere else (social media, blogs, other repositories or chat channels) until we have coordinated a fix.

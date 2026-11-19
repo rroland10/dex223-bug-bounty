@@ -46,7 +46,7 @@ Use this template to ask questions about the program or get help.
 ## Security Notes
 
 - **Public Issues**: Most issues are public and visible to everyone
-- **Sensitive Reports**: For extremely sensitive vulnerabilities, consider using GitHub Security Advisories
+- **Disclosure**: Reports here are public issues. Do not publish a vulnerability anywhere else (social media, blogs, other repositories or chat channels) until we have coordinated a fix.
 - **Responsible Disclosure**: Always follow responsible disclosure practices
 
 ## Rewards
@@ -55,7 +55,7 @@ Valid security reports are eligible for rewards in D223 tokens:
 
 - **Critical**: 30M D223 - A vulnerability that can completely break the contracts workflow
 - **High**: 7M D223 - A bug report that indicates a high severity problem but can't impact the whole platform
-- **Medium**: 3M D223 - A low-severity problem that can lead to a loss of funds but under specific conditions
+- **Medium**: 3M D223 - A problem that can lead to a loss of funds, but only under specific conditions
 - **Info**: 1M D223 - Anything else - best practices, documentation improvements, etc.
 
 See our [Rewards Structure](../REWARDS.md) for complete details.
@@ -68,9 +68,9 @@ The bug bounty program covers the following smart contract source codes:
 - **Focus Areas**: All smart contracts within the defined scope, excluding specific modules listed below
 
 ### In Scope
-- **Smart Contracts**: All Dex223 contracts on Ethereum mainnet and testnets
+- **Smart Contracts**: The Dex223 contracts deployed on Ethereum mainnet (see the README). Testnet deployments, Sepolia included, are for testing and are not in scope
 - **Web Application**: Frontend and backend services at https://test-app.dex223.io
-- **API Endpoints**: All public and authenticated APIs including Fiat on/off-ramp integration
+- **API Endpoints**: All public and authenticated APIs, including the Dex223 side of the fiat on/off-ramp integration (how the app loads and talks to the provider's widget); the provider's own services are third-party and out of scope
 - **Swap Interface**: https://test-app.dex223.io/en/swap
 - **Test Environment**: https://test-app.dex223.io
 - **Infrastructure**: Cloud services and deployment pipelines
@@ -104,4 +104,4 @@ The following issues are already known and should not be reported as new vulnera
 
 **Need help?** Join our [Telegram](https://t.me/Dex223_defi) or [Discord](https://discord.gg/t5bdeGC5Jk) community!
 
-*Last Updated: October 2026*
+*Last Updated: November 2026*
